@@ -1,0 +1,2181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<Style id="highlightPlacemark1">
+<IconStyle>
+<scale>1</scale>
+<Icon>
+<href>brightred_drop.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="highlightPlacemark2">
+<IconStyle>
+<scale>1</scale>
+<Icon>
+<href>brightpurple_drop.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="highlightPlacemark3">
+<IconStyle>
+<scale>1</scale>
+<Icon>
+<href>brightblue_drop.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="highlightPlacemark4">
+<IconStyle>
+<scale>1</scale>
+<Icon>
+<href>brightgr_drop.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="highlightPlacemark5">
+<IconStyle>
+<scale>1</scale>
+<Icon>
+<href>brightltblue_drop.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="highlightPlacemark6">
+<IconStyle>
+<scale>1</scale>
+<Icon>
+<href>brightyellow_drop.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="highlightPlacemark7">
+<IconStyle>
+<scale>1</scale>
+<Icon>
+<href>brightorange_drop.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="highlightPlacemark8">
+<IconStyle>
+<scale>1</scale>
+<Icon>
+<href>brightrose_drop.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="normalPlacemark1">
+<LabelStyle>
+<scale>.75</scale>
+</LabelStyle>
+<IconStyle>
+<scale>1</scale>
+<Icon>
+<href>red_drop.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="normalPlacemark2">
+<LabelStyle>
+<scale>.75</scale>
+</LabelStyle>
+<IconStyle>
+<scale>1</scale>
+<Icon>
+<href>purple_drop.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="normalPlacemark3">
+<LabelStyle>
+<scale>.75</scale>
+</LabelStyle>
+<IconStyle>
+<scale>1</scale>
+<Icon>
+<href>blue_drop.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="normalPlacemark4">
+<LabelStyle>
+<scale>.75</scale>
+</LabelStyle>
+<IconStyle>
+<scale>1</scale>
+<Icon>
+<href>gr_drop.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="normalPlacemark5">
+<LabelStyle>
+<scale>.75</scale>
+</LabelStyle>
+<IconStyle>
+<scale>1</scale>
+<Icon>
+<href>ltblue_drop.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="normalPlacemark6">
+<LabelStyle>
+<scale>.75</scale>
+</LabelStyle>
+<IconStyle>
+<scale>1</scale>
+<Icon>
+<href>yellow_drop.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="normalPlacemark7">
+<LabelStyle>
+<scale>.75</scale>
+</LabelStyle>
+<IconStyle>
+<scale>1</scale>
+<Icon>
+<href>orange_drop.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="normalPlacemark8">
+<LabelStyle>
+<scale>.75</scale>
+</LabelStyle>
+<IconStyle>
+<scale>1</scale>
+<Icon>
+<href>rose_drop.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<StyleMap id="bprStyleMap">
+<Pair>
+<key>normal</key>
+<styleUrl>#normalPlacemark1</styleUrl>
+</Pair>
+<Pair>
+<key>highlight</key>
+<styleUrl>#highlightPlacemark1</styleUrl>
+</Pair>
+</StyleMap>
+<StyleMap id="ctgStyleMap">
+<Pair>
+<key>normal</key>
+<styleUrl>#normalPlacemark2</styleUrl>
+</Pair>
+<Pair>
+<key>highlight</key>
+<styleUrl>#highlightPlacemark2</styleUrl>
+</Pair>
+</StyleMap>
+<StyleMap id="gpsStyleMap">
+<Pair>
+<key>normal</key>
+<styleUrl>#normalPlacemark3</styleUrl>
+</Pair>
+<Pair>
+<key>highlight</key>
+<styleUrl>#highlightPlacemark3</styleUrl>
+</Pair>
+</StyleMap>
+<StyleMap id="grvStyleMap">
+<Pair>
+<key>normal</key>
+<styleUrl>#normalPlacemark4</styleUrl>
+</Pair>
+<Pair>
+<key>highlight</key>
+<styleUrl>#highlightPlacemark4</styleUrl>
+</Pair>
+</StyleMap>
+<StyleMap id="tltStyleMap">
+<Pair>
+<key>normal</key>
+<styleUrl>#normalPlacemark5</styleUrl>
+</Pair>
+<Pair>
+<key>highlight</key>
+<styleUrl>#highlightPlacemark5</styleUrl>
+</Pair>
+</StyleMap>
+<StyleMap id="vtsStyleMap">
+<Pair>
+<key>normal</key>
+<styleUrl>#normalPlacemark6</styleUrl>
+</Pair>
+<Pair>
+<key>highlight</key>
+<styleUrl>#highlightPlacemark6</styleUrl>
+</Pair>
+</StyleMap>
+<StyleMap id="mprStyleMap">
+<Pair>
+<key>normal</key>
+<styleUrl>#normalPlacemark7</styleUrl>
+</Pair>
+<Pair>
+<key>highlight</key>
+<styleUrl>#highlightPlacemark7</styleUrl>
+</Pair>
+</StyleMap>
+<StyleMap id="mscStyleMap">
+<Pair>
+<key>normal</key>
+<styleUrl>#normalPlacemark8</styleUrl>
+</Pair>
+<Pair>
+<key>highlight</key>
+<styleUrl>#highlightPlacemark8</styleUrl>
+</Pair>
+</StyleMap>
+<Placemark>
+<name>001 FARADAY  </name>
+<description><table><tr><td colspan="9"><b>FARADAY</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-65.25, -64.267)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (365, 3600)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>01 : Bottom Pressure Recorder</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>ACCLAIM: http://www.pol.ac.uk/psmsl/programmes/acclaim.info.html</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>6.3</td><td>28.9</td><td>10.1</td><td>31.8</td><td>2.0</td><td>18.5</td><td>17.8</td><td>4.9</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>58.9</td><td>69.8</td><td>79.5</td><td>81.7</td><td>170.7</td><td>287.9</td><td>32.2</td><td>36.3</td></tr>
+</table>
+</description>
+<styleUrl>#bprStyleMap</styleUrl>
+<Point>
+<coordinates>-64.267,-65.25</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>002 FORSTER                               </name>
+<description><table><tr><td colspan="9"><b>FORSTER    </b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-70.772, -11.866)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (307.25, 3600)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>01 : Bottom Pressure Recorder </td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>ACCLAIM: http://www.pol.ac.uk/psmsl/programmes/acclaim.info.html</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>6.5</td><td>27.1</td><td>8.7</td><td>25.7</td><td>5.2</td><td>33.9</td><td>25.5</td><td>7.3</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>344.3</td><td>354.4</td><td>2.0</td><td>3.2</td><td>174.2</td><td>197.9</td><td>223.9</td><td>226.3</td></tr>
+</table>
+</description>
+<styleUrl>#bprStyleMap</styleUrl>
+<Point>
+<coordinates>-11.866,-70.772</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>003 ROTHERA                                   </name>
+<description><table><tr><td colspan="9"><b>ROTHERA</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-67.571, -68.129)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (365, 900)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>01 : Bottom Pressure Recorder </td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>ACCLAIM: http://www.pol.ac.uk/psmsl/programmes/acclaim.info.html</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>5.0</td><td>24.4</td><td>9.2</td><td>30.2</td><td>7.0</td><td>11.8</td><td>18.7</td><td>5.2</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>68.5</td><td>77.0</td><td>90.1</td><td>92.4</td><td>151.3</td><td>265.5</td><td>72.3</td><td>74.6</td></tr>
+</table>
+</description>
+<styleUrl>#bprStyleMap</styleUrl>
+<Point>
+<coordinates>-68.129,-67.571</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>004 SIGNY                                    </name>
+<description><table><tr><td colspan="9"><b>SIGNY</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-60.7, -45.6)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (385, 3600)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>01 : Bottom Pressure Recorder </td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>ACCLAIM: http://www.pol.ac.uk/psmsl/programmes/acclaim.info.html  </i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>4.4</td><td>17.9</td><td>5.0</td><td>15.0</td><td>7.3</td><td>45.3</td><td>25.2</td><td>7.6</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>35.9</td><td>48.9</td><td>64.0</td><td>62.8</td><td>245.6</td><td>264.1</td><td>290.7</td><td>288.3</td></tr>
+</table>
+</description>
+<styleUrl>#bprStyleMap</styleUrl>
+<Point>
+<coordinates>-45.6,-60.7</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>005 PTC_4_2_01                     </name>
+<description><table><tr><td colspan="9"><b>PTC_4_2_01</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-77.117, -49.05)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (4.2, NaN)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>01 : Bottom Pressure Recorder, Aanderaa WLR-1</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>Pelagic Tidal Constants 3 (1992); and Gammelsrod and Slotsvik (1981: Polarforschung, 51, 101-111)</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>6.0</td><td>28.4</td><td>9.9</td><td>29.0</td><td>7.3</td><td>48.7</td><td>29.1</td><td>8.0</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>18.0</td><td>23.0</td><td>24.0</td><td>23.0</td><td>276.0</td><td>280.0</td><td>295.0</td><td>296.0</td></tr>
+</table>
+</description>
+<styleUrl>#bprStyleMap</styleUrl>
+<Point>
+<coordinates>-49.05,-77.117</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>006 PTC_4_2_02                                                    </name>
+<description><table><tr><td colspan="9"><b>PTC_4_2_02</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-74.433, -39.4)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (30, NaN)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>01 : Bottom Pressure Recorder, Aanderaa WLR-1</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>Pelagic Tidal Constants 3 (1992); and Foldvik et al. (1985: Polar Res. 3(2) 177-193)</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>7.8</td><td>32.4</td><td>10.6</td><td>31.8</td><td>8.7</td><td>52.9</td><td>38.3</td><td>10.8</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>3.0</td><td>7.0</td><td>7.0</td><td>6.0</td><td>228.0</td><td>233.0</td><td>264.0</td><td>265.0</td></tr>
+</table>
+</description>
+<styleUrl>#bprStyleMap</styleUrl>
+<Point>
+<coordinates>-39.4,-74.433</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>007 PTC_4_2_03                                </name>
+<description><table><tr><td colspan="9"><b>PTC_4_2_03</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-74.383, -37.65)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (180, NaN)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>01 : Bottom Pressure Recorder, Aanderaa</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>Pelagic Tidal Constants 3 (1992); and Foldvik et al. (1985: Polar Res. 3(2) 177-193)</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>7.4</td><td>30.2</td><td>11.9</td><td>36.1</td><td>9.2</td><td>57.1</td><td>38.8</td><td>10.8</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>358.0</td><td>6.0</td><td>17.0</td><td>17.0</td><td>227.0</td><td>242.0</td><td>262.0</td><td>263.0</td></tr>
+</table>
+</description>
+<styleUrl>#bprStyleMap</styleUrl>
+<Point>
+<coordinates>-37.65,-74.383</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>008 PTC_4_2_05             </name>
+<description><table><tr><td colspan="9"><b>PTC_4_2_05 GEORG VON NEUMAYER</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-70.433, -8.3)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (324, NaN)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>01 : Bottom Pressure Recorder, Aanderaa</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>Pelagic Tidal Constants 3 (1992); and Pedley et al. (1986: J. Geophys. Res. 91(C11), 13,001-13,009)</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>8.0</td><td>29.0</td><td>9.0</td><td>27.0</td><td>8.0</td><td>41.0</td><td>30.0</td><td>8.0</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>341.0</td><td>347.0</td><td>351.0</td><td>352.0</td><td>180.0</td><td>189.0</td><td>211.0</td><td>214.0</td></tr>
+</table>
+</description>
+<styleUrl>#bprStyleMap</styleUrl>
+<Point>
+<coordinates>-8.3,-70.433</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>009 PTC_4_2_06                  </name>
+<description><table><tr><td colspan="9"><b>PTC_4_2_06 KAPP NORVEGIA</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-71.05, -11.75)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (367, NaN)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>01 : Bottom Pressure Recorder, Aanderaa</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>Pelagic Tidal Constants 3 (1992); and Pedley et al. (1986: J. Geophys. Res. 91(C11), 13,001-13,009)</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>7.0</td><td>29.0</td><td>9.0</td><td>27.0</td><td>7.0</td><td>46.0</td><td>33.0</td><td>10.0</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>349.0</td><td>352.0</td><td>356.0</td><td>358.0</td><td>193.0</td><td>201.0</td><td>223.0</td><td>222.0</td></tr>
+</table>
+</description>
+<styleUrl>#bprStyleMap</styleUrl>
+<Point>
+<coordinates>-11.75,-71.05</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>010 PTC_4_2_07                     </name>
+<description><table><tr><td colspan="9"><b>PTC_4_2_07 VESTKAPP</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-72.883, -19.617)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (316, NaN)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>01 : Bottom Pressure Recorder, Aanderaa</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>Pelagic Tidal Constants 3 (1992); and Pedley et al. (1986: J. Geophys. Res. 91(C11), 13,001-13,009)</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>8.0</td><td>31.0</td><td>10.0</td><td>29.0</td><td>9.0</td><td>56.0</td><td>39.0</td><td>11.0</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>352.0</td><td>359.0</td><td>4.0</td><td>5.0</td><td>209.0</td><td>220.0</td><td>242.0</td><td>241.0</td></tr>
+</table>
+</description>
+<styleUrl>#bprStyleMap</styleUrl>
+<Point>
+<coordinates>-19.617,-72.883</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>011 SIGNY LINE STA 3          </name>
+<description><table><tr><td colspan="9"><b>PTC_4_2_12 SIGNY LINE STATION 3</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-56.667, -52.483)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (375, NaN)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>01 : Bottom Pressure Recorder</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>Pelagic Tidal Constants 3 (1992)</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>4.0</td><td>16.6</td><td>4.1</td><td>12.6</td><td>7.4</td><td>39.5</td><td>16.2</td><td>4.7</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>44.0</td><td>57.0</td><td>85.0</td><td>93.0</td><td>249.0</td><td>274.0</td><td>309.0</td><td>305.0</td></tr>
+</table>
+</description>
+<styleUrl>#bprStyleMap</styleUrl>
+<Point>
+<coordinates>-52.483,-56.667</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>012 SIGNY LINE STA 5           </name>
+<description><table><tr><td colspan="9"><b>PTC_4_2_19 SIGNY LINE STATION 5</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-60.05, -47.083)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (408, NaN)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>01 : Bottom Pressure Recorder</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>Pelagic Tidal Constants 3 (1992)</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>4.3</td><td>18.5</td><td>5.0</td><td>15.2</td><td>6.8</td><td>41.6</td><td>20.9</td><td>6.0</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>39.0</td><td>50.0</td><td>64.0</td><td>67.0</td><td>248.0</td><td>268.0</td><td>299.0</td><td>296.0</td></tr>
+</table>
+</description>
+<styleUrl>#bprStyleMap</styleUrl>
+<Point>
+<coordinates>-47.083,-60.05</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>013 PTC_4_2_20                              </name>
+<description><table><tr><td colspan="9"><b>PTC_4_2_20</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-73.133, -72.533)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (357, NaN)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>01 : Bottom Pressure Recorder, Aanderaa WLR-5</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>Pelagic Tidal Constants 3 (1992); and Pedley et al. (1986: J. Geophys. Res. 91(C11), 13,001-13,009)</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>5.3</td><td>27.0</td><td>10.7</td><td>33.8</td><td>8.0</td><td>13.1</td><td>28.2</td><td>8.2</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>71.0</td><td>80.0</td><td>96.0</td><td>98.0</td><td>164.0</td><td>264.0</td><td>91.0</td><td>97.0</td></tr>
+</table>
+</description>
+<styleUrl>#bprStyleMap</styleUrl>
+<Point>
+<coordinates>-72.533,-73.133</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>014 PTC_4_2_21                           </name>
+<description><table><tr><td colspan="9"><b>PTC_4_2_21</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-56.483, -62.983)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (320, NaN)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>01 : Bottom Pressure Recorder</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>Pelagic Tidal Constants 3, Additions;      </i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>3.7</td><td>17.0</td><td>5.5</td><td>17.3</td><td>8.9</td><td>43.2</td><td>10.3</td><td>2.8</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>31.0</td><td>53.0</td><td>90.0</td><td>97.0</td><td>229.0</td><td>265.0</td><td>318.0</td><td>311.0</td></tr>
+</table>
+</description>
+<styleUrl>#bprStyleMap</styleUrl>
+<Point>
+<coordinates>-62.983,-56.483</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>015 PTC_4_2_24                              </name>
+<description><table><tr><td colspan="9"><b>PTC_4_2_24</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-61.467, -61.283)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (320, NaN)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>01 : Bottom Pressure Recorder </td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>Pelagic Tidal Constants 3, Additions;</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>4.8</td><td>22.2</td><td>7.5</td><td>23.1</td><td>4.8</td><td>32.5</td><td>14.7</td><td>4.0</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>38.0</td><td>51.0</td><td>68.0</td><td>72.0</td><td>223.0</td><td>268.0</td><td>342.0</td><td>340.0</td></tr>
+</table>
+</description>
+<styleUrl>#bprStyleMap</styleUrl>
+<Point>
+<coordinates>-61.283,-61.467</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>016 PTC_4_2_27                              </name>
+<description><table><tr><td colspan="9"><b>PTC_4_2_27</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-60.85, -54.717)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (378, NaN)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>01 : Bottom Pressure Recorder  </td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>Pelagic Tidal Constants 3, Additions;</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>4.6</td><td>19.9</td><td>6.6</td><td>19.4</td><td>6.9</td><td>43.4</td><td>21.7</td><td>6.1</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>38.0</td><td>49.0</td><td>62.0</td><td>66.0</td><td>250.0</td><td>277.0</td><td>323.0</td><td>320.0</td></tr>
+</table>
+</description>
+<styleUrl>#bprStyleMap</styleUrl>
+<Point>
+<coordinates>-54.717,-60.85</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>017 PTC_4_2_30                                  </name>
+<description><table><tr><td colspan="9"><b>PTC_4_2_30</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-59.733, -55.5)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (377, NaN)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>01 : Bottom Pressure Recorder  </td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>Pelagic Tidal Constants 3, Additions;</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>4.3</td><td>18.8</td><td>5.7</td><td>17.2</td><td>6.7</td><td>41.0</td><td>18.1</td><td>5.0</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>41.0</td><td>55.0</td><td>73.0</td><td>78.0</td><td>245.0</td><td>274.0</td><td>321.0</td><td>318.0</td></tr>
+</table>
+</description>
+<styleUrl>#bprStyleMap</styleUrl>
+<Point>
+<coordinates>-55.5,-59.733</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>018 PTC_4_2_32                                 </name>
+<description><table><tr><td colspan="9"><b>PTC_4_2_32</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-56.533, -67)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (364, NaN)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>01 : Bottom Pressure Recorder</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>Pelagic Tidal Constants 3, Additions;</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>3.6</td><td>16.2</td><td>5.6</td><td>17.9</td><td>10.9</td><td>44.7</td><td>7.0</td><td>2.0</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>33.0</td><td>52.0</td><td>94.0</td><td>100.0</td><td>208.0</td><td>247.0</td><td>291.0</td><td>281.0</td></tr>
+</table>
+</description>
+<styleUrl>#bprStyleMap</styleUrl>
+<Point>
+<coordinates>-67,-56.533</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>019 PTC_4_2_33                                  </name>
+<description><table><tr><td colspan="9"><b>PTC_4_2_33</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-62.133, -60.683)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (358, NaN)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>01 : Bottom Pressure Recorder </td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>Pelagic Tidal Constants 3, Additions;</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>5.1</td><td>23.6</td><td>7.9</td><td>24.6</td><td>4.1</td><td>32.0</td><td>16.3</td><td>4.7</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>46.0</td><td>54.0</td><td>71.0</td><td>73.0</td><td>231.0</td><td>280.0</td><td>351.0</td><td>352.0</td></tr>
+</table>
+</description>
+<styleUrl>#bprStyleMap</styleUrl>
+<Point>
+<coordinates>-60.683,-62.133</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>020 SANAE BASE                     </name>
+<description><table><tr><td colspan="9"><b>PTC_4_2_34 (SANAE BASE)</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-70.133, -2.65)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (653, NaN)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>01 : Bottom Pressure Recorder </td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>Pelagic Tidal Constants 3, Additions;</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>6.3</td><td>27.0</td><td>8.4</td><td>25.3</td><td>5.5</td><td>34.7</td><td>25.9</td><td>7.4</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>334.0</td><td>343.0</td><td>350.0</td><td>351.0</td><td>154.0</td><td>177.0</td><td>208.0</td><td>200.0</td></tr>
+</table>
+</description>
+<styleUrl>#bprStyleMap</styleUrl>
+<Point>
+<coordinates>-2.65,-70.133</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>021 KATHY               </name>
+<description><table><tr><td colspan="9"><b>PTC_4_1_02 (STATION "KATHY")</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-50.033, 132.15)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (32, NaN)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>01 : Bottom Pressure Recorder </td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>Pelagic Tidal Constants 3</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>2.8</td><td>11.8</td><td>4.2</td><td>12.8</td><td>1.6</td><td>12.3</td><td>9.0</td><td>2.6</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>220.0</td><td>220.0</td><td>235.0</td><td>232.0</td><td>79.0</td><td>65.0</td><td>108.0</td><td>103.0</td></tr>
+</table>
+</description>
+<styleUrl>#bprStyleMap</styleUrl>
+<Point>
+<coordinates>132.15,-50.033</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>022 FLICKI             </name>
+<description><table><tr><td colspan="9"><b>PTC_4_1_03  (STATION "FLICKI")</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-60.017, 132.117)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (21, NaN)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>01 : Bottom Pressure Recorder   </td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>Pelagic Tidal Constants 3</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>3.5</td><td>15.3</td><td>5.9</td><td>17.5</td><td>3.8</td><td>18.4</td><td>9.9</td><td>3.0</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>187.0</td><td>215.0</td><td>228.0</td><td>223.0</td><td>63.0</td><td>79.0</td><td>120.0</td><td>118.0</td></tr>
+</table>
+</description>
+<styleUrl>#bprStyleMap</styleUrl>
+<Point>
+<coordinates>132.117,-60.017</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>023 MAWSON                              </name>
+<description><table><tr><td colspan="9"><b>20080- MAWSON</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-67.6, 62.867)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (365, 3600)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>01 : Bottom Pressure Recorder </td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>http://www.geoscience.scar.org/geodesy/perm_ob/tide/atg_instrument.txt</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>6.0</td><td>25.4</td><td>7.7</td><td>23.4</td><td>2.3</td><td>3.1</td><td>11.4</td><td>3.3</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>276.9</td><td>284.6</td><td>291.9</td><td>292.2</td><td>169.4</td><td>238.8</td><td>8.9</td><td>11.6</td></tr>
+</table>
+</description>
+<styleUrl>#bprStyleMap</styleUrl>
+<Point>
+<coordinates>62.867,-67.6</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>024 DAVIS                              </name>
+<description><table><tr><td colspan="9"><b>20100- DAVIS</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-68.45, 77.967)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (365, 3600)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>01 : Bottom Pressure Recorder   </td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>http://www.geoscience.scar.org/geodesy/perm_ob/tide/atg_instrument.txt</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>7.2</td><td>28.8</td><td>8.8</td><td>27.8</td><td>5.7</td><td>20.1</td><td>17.7</td><td>5.1</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>260.7</td><td>269.0</td><td>276.0</td><td>277.0</td><td>168.2</td><td>208.5</td><td>307.1</td><td>308.8</td></tr>
+</table>
+</description>
+<styleUrl>#bprStyleMap</styleUrl>
+<Point>
+<coordinates>77.967,-68.45</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>025 CASEY                              </name>
+<description><table><tr><td colspan="9"><b>20120- CASEY</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-66.283, 110.533)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (365, 3600)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>01 : Bottom Pressure Recorder </td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>http://www.geoscience.scar.org/geodesy/perm_ob/tide/atg_instrument.txt </i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>6.4</td><td>26.5</td><td>8.6</td><td>26.6</td><td>7.3</td><td>29.3</td><td>16.9</td><td>4.7</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>224.2</td><td>233.7</td><td>242.4</td><td>243.7</td><td>120.5</td><td>142.9</td><td>200.1</td><td>199.4</td></tr>
+</table>
+</description>
+<styleUrl>#bprStyleMap</styleUrl>
+<Point>
+<coordinates>110.533,-66.283</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>026 MACQUARIE ISLAND                   </name>
+<description><table><tr><td colspan="9"><b>65300- MACQUARIE ISLAND</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-54.483, 158.967)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (365, 3600)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>01 : Bottom Pressure Recorder, Foxboro pressure recorder</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>http://www.geoscience.scar.org/geodesy/perm_ob/tide/atg_instrument.txt</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>1.6</td><td>7.7</td><td>3.1</td><td>9.6</td><td>7.4</td><td>30.5</td><td>8.9</td><td>2.4</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>192.4</td><td>197.5</td><td>216.5</td><td>216.9</td><td>2.6</td><td>26.1</td><td>57.0</td><td>49.2</td></tr>
+</table>
+</description>
+<styleUrl>#bprStyleMap</styleUrl>
+<Point>
+<coordinates>158.967,-54.483</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>027 HEARD ISLAND                       </name>
+<description><table><tr><td colspan="9"><b>20090- HEARD ISLAND</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-53.017, 73.383)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (52, 3600)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>00 : [type]  </td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>[ref]</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>1.7</td><td>9.1</td><td>NaN</td><td>18.8</td><td>6.5</td><td>24.0</td><td>7.1</td><td>NaN</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>167.6</td><td>169.0</td><td>NaN</td><td>191.6</td><td>170.2</td><td>191.6</td><td>252.8</td><td>NaN</td></tr>
+</table>
+</description>
+<styleUrl>#mscStyleMap</styleUrl>
+<Point>
+<coordinates>73.383,-53.017</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>028 BASE    </name>
+<description><table><tr><td colspan="9"><b>BASE (GRAVITY MEASUREMENTS ON THE RIS)</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-82.53, -166)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (44, NaN)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>04 : Gravimeter</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>Williams and Robinson (1980; J. Geophys. Res., 85(C11), 6689-6696)   </i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>NaN</td><td>33.9</td><td>13.5</td><td>41.8</td><td>8.9</td><td>7.8</td><td>9.8</td><td>NaN</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>NaN</td><td>174.5</td><td>186.5</td><td>186.4</td><td>93.7</td><td>213.8</td><td>112.3</td><td>NaN</td></tr>
+</table>
+</description>
+<styleUrl>#grvStyleMap</styleUrl>
+<Point>
+<coordinates>-166,-82.53</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>029 C13    </name>
+<description><table><tr><td colspan="9"><b>C13  (GRAVITY MEASUREMENTS ON THE RIS)</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-79.25, 170.37)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (34, NaN)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>04 : Gravimeter    </td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>Williams and Robinson (1980; J. Geophys. Res., 85(C11), 6689-6696) </i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>NaN</td><td>32.9</td><td>9.6</td><td>28.8</td><td>5.0</td><td>3.1</td><td>3.9</td><td>NaN</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>NaN</td><td>190.7</td><td>200.7</td><td>200.8</td><td>159.6</td><td>300.8</td><td>130.9</td><td>NaN</td></tr>
+</table>
+</description>
+<styleUrl>#grvStyleMap</styleUrl>
+<Point>
+<coordinates>170.37,-79.25</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>030 C16    </name>
+<description><table><tr><td colspan="9"><b>C16  (GRAVITY MEASUREMENTS ON THE RIS)</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-81.19, 170.5)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (45, NaN)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>04 : Gravimeter    </td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>Williams and Robinson (1980; J. Geophys. Res., 85(C11), 6689-6696)  </i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>NaN</td><td>26.0</td><td>9.6</td><td>29.8</td><td>3.9</td><td>3.1</td><td>2.0</td><td>NaN</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>NaN</td><td>190.8</td><td>200.7</td><td>200.7</td><td>146.6</td><td>311.5</td><td>162.6</td><td>NaN</td></tr>
+</table>
+</description>
+<styleUrl>#grvStyleMap</styleUrl>
+<Point>
+<coordinates>170.5,-81.19</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>031 C36    </name>
+<description><table><tr><td colspan="9"><b>C36  (GRAVITY MEASUREMENTS ON THE RIS)</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-79.75, -169.05)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (34, NaN)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>04 : Gravimeter    </td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>Williams and Robinson (1980; J. Geophys. Res., 85(C11), 6689-6696)</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>NaN</td><td>35.9</td><td>13.8</td><td>41.5</td><td>4.4</td><td>3.6</td><td>6.8</td><td>NaN</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>NaN</td><td>152.9</td><td>160.4</td><td>160.1</td><td>40.9</td><td>78.5</td><td>26.7</td><td>NaN</td></tr>
+</table>
+</description>
+<styleUrl>#grvStyleMap</styleUrl>
+<Point>
+<coordinates>-169.05,-79.75</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>032 F9    </name>
+<description><table><tr><td colspan="9"><b>F9   (GRAVITY MEASUREMENTS ON THE RIS)</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-84.25, -171.33)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (58, NaN)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>04 : Gravimeter       </td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>Williams and Robinson (1980; J. Geophys. Res., 85(C11), 6689-6696)</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>NaN</td><td>39.3</td><td>13.7</td><td>40.2</td><td>7.9</td><td>8.0</td><td>10.9</td><td>NaN</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>NaN</td><td>190.5</td><td>206.7</td><td>206.7</td><td>137.7</td><td>259.3</td><td>141.9</td><td>NaN</td></tr>
+</table>
+</description>
+<styleUrl>#grvStyleMap</styleUrl>
+<Point>
+<coordinates>-171.33,-84.25</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>033 J9      </name>
+<description><table><tr><td colspan="9"><b>J9   (GRAVITY MEASUREMENTS ON THE RIS)</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-82.37, -168.63)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (30, NaN)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>04 : Gravimeter    </td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>Williams and Robinson (1980; J. Geophys. Res., 85(C11), 6689-6696)</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>NaN</td><td>41.7</td><td>14.2</td><td>42.1</td><td>8.1</td><td>7.5</td><td>9.2</td><td>NaN</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>NaN</td><td>172.4</td><td>189.9</td><td>191.1</td><td>80.5</td><td>203.2</td><td>103.8</td><td>NaN</td></tr>
+</table>
+</description>
+<styleUrl>#grvStyleMap</styleUrl>
+<Point>
+<coordinates>-168.63,-82.37</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>034 LAS                                       </name>
+<description><table><tr><td colspan="9"><b>LAS</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-78.2, -162.27)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (32, NaN)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>04 : Gravimeter</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>Williams and Robinson (1980; J. Geophys. Res., 85(C11), 6689-6696) </i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>NaN</td><td>23.6</td><td>10.5</td><td>32.4</td><td>5.0</td><td>3.0</td><td>4.9</td><td>NaN</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>NaN</td><td>141.2</td><td>153.9</td><td>154.1</td><td>344.7</td><td>32.5</td><td>341.2</td><td>NaN</td></tr>
+</table>
+</description>
+<styleUrl>#grvStyleMap</styleUrl>
+<Point>
+<coordinates>-162.27,-78.2</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>035 MCMURDO                                   </name>
+<description><table><tr><td colspan="9"><b>MCMURDO</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-77.85, 166.66)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (365, NaN)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>04 : Gravimeter</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>Williams and Robinson (1980; J. Geophys. Res., 85(C11), 6689-6696)  </i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>NaN</td><td>25.1</td><td>8.6</td><td>24.9</td><td>3.0</td><td>4.0</td><td>2.1</td><td>NaN</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>NaN</td><td>186.7</td><td>196.4</td><td>196.7</td><td>233.7</td><td>4.2</td><td>267.4</td><td>NaN</td></tr>
+</table>
+</description>
+<styleUrl>#grvStyleMap</styleUrl>
+<Point>
+<coordinates>166.66,-77.85</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>036 O19    </name>
+<description><table><tr><td colspan="9"><b>O19  (GRAVITY MEASUREMENTS ON THE RIS)</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-79.53, 163.36)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (39, NaN)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>04 : Gravimeter</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>Williams and Robinson (1980; J. Geophys. Res., 85(C11), 6689-6696) </i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>NaN</td><td>32.9</td><td>11.7</td><td>35.1</td><td>3.4</td><td>3.8</td><td>2.2</td><td>NaN</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>NaN</td><td>196.4</td><td>208.4</td><td>208.3</td><td>188.9</td><td>339.8</td><td>182.1</td><td>NaN</td></tr>
+</table>
+</description>
+<styleUrl>#grvStyleMap</styleUrl>
+<Point>
+<coordinates>163.36,-79.53</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>037 RI    </name>
+<description><table><tr><td colspan="9"><b>RI   (GRAVITY MEASUREMENTS ON THE RIS)</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-80.19, -161.56)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (36, NaN)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>04 : Gravimeter </td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>Williams and Robinson (1980; J. Geophys. Res., 85(C11), 6689-6696) </i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>NaN</td><td>42.7</td><td>17.0</td><td>49.4</td><td>10.1</td><td>6.2</td><td>11.4</td><td>NaN</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>NaN</td><td>140.1</td><td>159.4</td><td>159.8</td><td>5.5</td><td>126.5</td><td>28.0</td><td>NaN</td></tr>
+</table>
+</description>
+<styleUrl>#grvStyleMap</styleUrl>
+<Point>
+<coordinates>-161.56,-80.19</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>038 AMERY</name>
+<description><table><tr><td colspan="9"><b>AMERY 2000 (DIFFERENTIAL GPS ON NE AMERY)</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-69.714, 73.584)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (31, 3600)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>03 : GPS</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>pers. comm. Matt King, University of Newcastle, UK  </i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>7.4</td><td>28.3</td><td>NaN</td><td>31.0</td><td>6.2</td><td>18.6</td><td>17.8</td><td>NaN</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>250.3</td><td>272.3</td><td>NaN</td><td>296.6</td><td>170.8</td><td>215.9</td><td>332.9</td><td>NaN</td></tr>
+</table>
+</description>
+<styleUrl>#gpsStyleMap</styleUrl>
+<Point>
+<coordinates>73.584,-69.714</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>039 BEAVER LAKE                               </name>
+<description><table><tr><td colspan="9"><b>BEAVER LAKE</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-70.8, 68.183)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (NaN, NaN)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>01 : Bottom Pressure Recorder</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>Australian National Tidal Centre/Australian Antarctic Division   </i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>6.5</td><td>28.7</td><td>9.4</td><td>28.3</td><td>7.5</td><td>24.1</td><td>24.9</td><td>6.8</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>287.9</td><td>287.2</td><td>295.8</td><td>295.8</td><td>214.7</td><td>253.4</td><td>356.2</td><td>356.2</td></tr>
+</table>
+</description>
+<styleUrl>#bprStyleMap</styleUrl>
+<Point>
+<coordinates>68.183,-70.8</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>040 ROPEX C1                                  </name>
+<description><table><tr><td colspan="9"><b>ROPEX C1</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-59.867, -30.1)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (365, 900)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>01 : Bottom Pressure Recorder   </td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>[ref]</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>3.2</td><td>12.3</td><td>3.2</td><td>9.5</td><td>5.2</td><td>30.7</td><td>18.0</td><td>5.5</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>24.7</td><td>33.9</td><td>42.2</td><td>43.0</td><td>256.1</td><td>265.4</td><td>282.2</td><td>280.2</td></tr>
+</table>
+</description>
+<styleUrl>#bprStyleMap</styleUrl>
+<Point>
+<coordinates>-30.1,-59.867</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>041 ROPEX C2                                 </name>
+<description><table><tr><td colspan="9"><b>ROPEX C2</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-73.692, -34.61)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (365, 900)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>01 : Bottom Pressure Recorder   </td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>[ref]</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>8.2</td><td>34.2</td><td>11.3</td><td>33.8</td><td>8.9</td><td>58.8</td><td>40.3</td><td>12.1</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>359.6</td><td>6.3</td><td>13.8</td><td>14.6</td><td>229.5</td><td>239.8</td><td>262.1</td><td>261.7</td></tr>
+</table>
+</description>
+<styleUrl>#bprStyleMap</styleUrl>
+<Point>
+<coordinates>-34.61,-73.692</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>042 ROPEX M2                                </name>
+<description><table><tr><td colspan="9"><b>ROPEX M2</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-76.583, -32.01)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (365, 900)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>01 : Bottom Pressure Recorder   </td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>[ref]  </i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>7.5</td><td>32.0</td><td>10.5</td><td>31.7</td><td>11.9</td><td>77.2</td><td>52.5</td><td>15.6</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>358.7</td><td>5.2</td><td>12.1</td><td>11.9</td><td>237.2</td><td>247.7</td><td>269.3</td><td>269.3</td></tr>
+</table>
+</description>
+<styleUrl>#bprStyleMap</styleUrl>
+<Point>
+<coordinates>-32.01,-76.583</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>043 RUTFORD GL                     </name>
+<description><table><tr><td colspan="9"><b>RUTFORD GL TILT/GRAV</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-78.55, -82.967)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (43, NaN)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>05 : Tiltmeter, 43-day record in grounding zone, calibrated with 4 days gravimeter data further offshore</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>Doake (1992: Filchner Ronne Ice Shelf Programme Report 6, 34-39), revised by Keith Nicholls (BAS)</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>9.5</td><td>39.6</td><td>16.0</td><td>49.1</td><td>23.8</td><td>161.1</td><td>108.6</td><td>32.5</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>70.2</td><td>61.7</td><td>57.4</td><td>60.0</td><td>60.5</td><td>72.1</td><td>96.2</td><td>93.7</td></tr>
+</table>
+</description>
+<styleUrl>#tltStyleMap</styleUrl>
+<Point>
+<coordinates>-82.967,-78.55</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>044 SYOWA                                    </name>
+<description><table><tr><td colspan="9"><b>SYOWA</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-69, 39.8)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (365, NaN)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>03 : GPS</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>Aoki et al. (2000: Geophys. Res. Lett., 27(15), 2285-2288): corrected by M.A. King</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>5.9</td><td>24.4</td><td>7.3</td><td>22.2</td><td>4.0</td><td>24.9</td><td>20.0</td><td>5.9</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>301.8</td><td>310.5</td><td>316.7</td><td>317.4</td><td>76.5</td><td>81.0</td><td>97.0</td><td>96.3</td></tr>
+</table>
+</description>
+<styleUrl>#gpsStyleMap</styleUrl>
+<Point>
+<coordinates>39.8,-69</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>045 ARDLEY COVE                               </name>
+<description><table><tr><td colspan="9"><b>ARDLEY COVE</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-62.217, -58.933)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (44, NaN)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>06 : Visual Tide Staff</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>Dragani et al. (2004: Polar Geosci., 17, 156-170)</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>NaN</td><td>29.0</td><td>NaN</td><td>31.0</td><td>NaN</td><td>46.0</td><td>25.0</td><td>NaN</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>NaN</td><td>45.0</td><td>NaN</td><td>73.0</td><td>NaN</td><td>276.0</td><td>331.0</td><td>NaN</td></tr>
+</table>
+</description>
+<styleUrl>#vtsStyleMap</styleUrl>
+<Point>
+<coordinates>-58.933,-62.217</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>046 GURRACHAGA                                </name>
+<description><table><tr><td colspan="9"><b>GURRACHAGA</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-62.3, -59.2)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (41, NaN)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>06 : Visual Tide Staff</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>Dragani et al. (2004: Polar Geosci., 17, 156-170)</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>NaN</td><td>26.0</td><td>NaN</td><td>25.0</td><td>NaN</td><td>44.0</td><td>23.0</td><td>NaN</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>NaN</td><td>50.0</td><td>NaN</td><td>65.0</td><td>NaN</td><td>279.0</td><td>335.0</td><td>NaN</td></tr>
+</table>
+</description>
+<styleUrl>#vtsStyleMap</styleUrl>
+<Point>
+<coordinates>-59.2,-62.3</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>047 HALF MOON IS.                             </name>
+<description><table><tr><td colspan="9"><b>HALF MOON IS.</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-62.6, -59.884)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (38, NaN)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>02 : Coastal Tide Gauge, Float</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>Dragani et al. (2004: Polar Geosci., 17, 156-170)</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>NaN</td><td>28.0</td><td>NaN</td><td>28.0</td><td>NaN</td><td>43.0</td><td>24.0</td><td>NaN</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>NaN</td><td>49.0</td><td>NaN</td><td>66.0</td><td>NaN</td><td>281.0</td><td>335.0</td><td>NaN</td></tr>
+</table>
+</description>
+<styleUrl>#ctgStyleMap</styleUrl>
+<Point>
+<coordinates>-59.884,-62.6</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>048 PENDULUM COVE                            </name>
+<description><table><tr><td colspan="9"><b>PENDULUM COVE</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-62.956, -60.608)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (19, NaN)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>06 : Visual Tide Staff</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>Dragani et al. (2004: Polar Geosci., 17, 156-170)</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>NaN</td><td>29.0</td><td>NaN</td><td>26.0</td><td>NaN</td><td>44.0</td><td>28.0</td><td>NaN</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>NaN</td><td>55.0</td><td>NaN</td><td>73.0</td><td>NaN</td><td>281.0</td><td>NaN</td><td>NaN</td></tr>
+</table>
+</description>
+<styleUrl>#vtsStyleMap</styleUrl>
+<Point>
+<coordinates>-60.608,-62.956</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>049 WHALERS COVE                             </name>
+<description><table><tr><td colspan="9"><b>WHALERS COVE </b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-62.983, -60.567)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (12, NaN)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>06 : Visual Tide Staff</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>Dragani et al. (2004: Polar Geosci., 17, 156-170)</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>NaN</td><td>29.0</td><td>NaN</td><td>26.0</td><td>NaN</td><td>46.0</td><td>29.0</td><td>NaN</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>NaN</td><td>48.0</td><td>NaN</td><td>66.0</td><td>NaN</td><td>280.0</td><td>NaN</td><td>NaN</td></tr>
+</table>
+</description>
+<styleUrl>#vtsStyleMap</styleUrl>
+<Point>
+<coordinates>-60.567,-62.983</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>050 BAHIA ESPERANZA                           </name>
+<description><table><tr><td colspan="9"><b>BAHIA ESPERANZA</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-63.383, -56.983)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (547, NaN)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>02 : Coastal Tide Gauge, Float</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>http://www.geoscience.scar.org/geodesy/perm_ob/tide/atg_instrument.txt</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>NaN</td><td>40.0</td><td>NaN</td><td>36.0</td><td>NaN</td><td>63.0</td><td>40.0</td><td>NaN</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>NaN</td><td>35.0</td><td>NaN</td><td>53.0</td><td>NaN</td><td>275.0</td><td>312.0</td><td>NaN</td></tr>
+</table>
+</description>
+<styleUrl>#ctgStyleMap</styleUrl>
+<Point>
+<coordinates>-56.983,-63.383</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>051 MIKKELSEN                                 </name>
+<description><table><tr><td colspan="9"><b>MIKKELSEN</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-63.887, -60.733)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (25, NaN)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>06 : Visual Tide Staff </td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>Dragani et al. (2004: Polar Geosci., 17, 156-170)</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>NaN</td><td>33.0</td><td>NaN</td><td>33.0</td><td>NaN</td><td>38.0</td><td>27.0</td><td>NaN</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>NaN</td><td>52.0</td><td>NaN</td><td>66.0</td><td>NaN</td><td>290.0</td><td>7.0</td><td>NaN</td></tr>
+</table>
+</description>
+<styleUrl>#vtsStyleMap</styleUrl>
+<Point>
+<coordinates>-60.733,-63.887</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>052 PRIMAVERA                                 </name>
+<description><table><tr><td colspan="9"><b>PRIMAVERA</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-64.15, -60.95)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (44, NaN)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>06 : Visual Tide Staff</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>Dragani et al. (2004: Polar Geosci., 17, 156-170)</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>NaN</td><td>32.0</td><td>NaN</td><td>31.0</td><td>NaN</td><td>33.0</td><td>26.0</td><td>NaN</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>NaN</td><td>59.0</td><td>NaN</td><td>72.0</td><td>NaN</td><td>291.0</td><td>5.0</td><td>NaN</td></tr>
+</table>
+</description>
+<styleUrl>#vtsStyleMap</styleUrl>
+<Point>
+<coordinates>-60.95,-64.15</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>053 GERLACHE C                                </name>
+<description><table><tr><td colspan="9"><b>GERLACHE C</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-64.593, -62.89)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (29, NaN)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>01 : Bottom Pressure Recorder</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>Dragani et al. (2004: Polar Geosci., 17, 156-170)</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>NaN</td><td>30.0</td><td>NaN</td><td>32.0</td><td>NaN</td><td>29.0</td><td>22.0</td><td>NaN</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>NaN</td><td>60.0</td><td>NaN</td><td>78.0</td><td>NaN</td><td>291.0</td><td>13.0</td><td>NaN</td></tr>
+</table>
+</description>
+<styleUrl>#bprStyleMap</styleUrl>
+<Point>
+<coordinates>-62.89,-64.593</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>054 PALMER                                    </name>
+<description><table><tr><td colspan="9"><b>PALMER</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-64.772, -64.067)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (30, NaN)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>01 : Bottom Pressure Recorder</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>Booth, Technical Report, 2004</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>6.4</td><td>28.2</td><td>9.8</td><td>31.4</td><td>1.9</td><td>19.2</td><td>16.9</td><td>4.5</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>56.9</td><td>65.9</td><td>82.1</td><td>83.1</td><td>157.7</td><td>284.1</td><td>29.8</td><td>35.4</td></tr>
+</table>
+</description>
+<styleUrl>#bprStyleMap</styleUrl>
+<Point>
+<coordinates>-64.067,-64.772</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>055 LOKCROY                                  </name>
+<description><table><tr><td colspan="9"><b>LOKCROY</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-64.827, -63.492)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (19, NaN)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>02 : Coastal Tide Gauge, Float</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>Dragani et al. (2004: Polar Geosci., 17, 156-170)</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>NaN</td><td>29.0</td><td>NaN</td><td>29.0</td><td>NaN</td><td>23.0</td><td>19.0</td><td>NaN</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>NaN</td><td>68.0</td><td>NaN</td><td>82.0</td><td>NaN</td><td>293.0</td><td>NaN</td><td>NaN</td></tr>
+</table>
+</description>
+<styleUrl>#ctgStyleMap</styleUrl>
+<Point>
+<coordinates>-63.492,-64.827</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>056 BROWN                                     </name>
+<description><table><tr><td colspan="9"><b>BROWN</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-64.9, -62.867)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (699, NaN)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>02 : Coastal Tide Gauge, Float</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>Dragani et al. (2004: Polar Geosci., 17, 156-170)</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>NaN</td><td>31.0</td><td>NaN</td><td>33.0</td><td>NaN</td><td>27.0</td><td>20.0</td><td>NaN</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>NaN</td><td>63.0</td><td>NaN</td><td>76.0</td><td>NaN</td><td>291.0</td><td>14.0</td><td>NaN</td></tr>
+</table>
+</description>
+<styleUrl>#ctgStyleMap</styleUrl>
+<Point>
+<coordinates>-62.867,-64.9</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>057 GROUSSAC                                  </name>
+<description><table><tr><td colspan="9"><b>GROUSSAC</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-65.183, -64.167)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (59, NaN)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>06 : Visual Tide Staff</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>Dragani et al. (2004: Polar Geosci., 17, 156-170)</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>NaN</td><td>29.0</td><td>NaN</td><td>32.0</td><td>NaN</td><td>21.0</td><td>20.0</td><td>NaN</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>NaN</td><td>68.0</td><td>NaN</td><td>86.0</td><td>NaN</td><td>288.0</td><td>32.0</td><td>NaN</td></tr>
+</table>
+</description>
+<styleUrl>#vtsStyleMap</styleUrl>
+<Point>
+<coordinates>-64.167,-65.183</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>058 SEYMOUR IS               </name>
+<description><table><tr><td colspan="9"><b>SEYMOUR IS. (MARAMBIO BASE)</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-64.235, -56.575)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (32, NaN)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>06 : Visual Tide Staff</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>D'Onofrio et al. (2003: Polar Geosci., 16, 53-60)</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>NaN</td><td>42.0</td><td>NaN</td><td>41.0</td><td>NaN</td><td>71.0</td><td>47.0</td><td>NaN</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>NaN</td><td>26.0</td><td>NaN</td><td>46.0</td><td>NaN</td><td>266.0</td><td>301.0</td><td>NaN</td></tr>
+</table>
+</description>
+<styleUrl>#vtsStyleMap</styleUrl>
+<Point>
+<coordinates>-56.575,-64.235</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>059 LARSEN NUNATAK            </name>
+<description><table><tr><td colspan="9"><b>LARSEN NUNATAK (MATENZIO BASE)</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-64.904, -60.043)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (44, NaN)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>02 : Coastal Tide Gauge,  Visual Tide Staff plus BPR</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>D'Onofrio et al. (2003: Polar Geosci., 16, 53-60)</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>NaN</td><td>40.1</td><td>13.7</td><td>42.5</td><td>12.6</td><td>82.5</td><td>55.4</td><td>16.0</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>NaN</td><td>8.0</td><td>29.1</td><td>32.0</td><td>249.8</td><td>260.8</td><td>298.8</td><td>295.5</td></tr>
+</table>
+</description>
+<styleUrl>#ctgStyleMap</styleUrl>
+<Point>
+<coordinates>-60.043,-64.904</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>060 EKLUND ISLANDS                             </name>
+<description><table><tr><td colspan="9"><b>EKLUND ISLANDS</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-73.1667, -71.6667)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (45, NaN)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>01 : Bottom Pressure Recorder</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>Potter et al. (1985: Brit. Ant. Surv. Bull., No. 68, 1-18)</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>5.8</td><td>27.0</td><td>10.9</td><td>32.7</td><td>9.0</td><td>13.1</td><td>30.0</td><td>8.1</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>78.0</td><td>80.0</td><td>94.0</td><td>99.0</td><td>161.0</td><td>271.0</td><td>92.0</td><td>93.0</td></tr>
+</table>
+</description>
+<styleUrl>#bprStyleMap</styleUrl>
+<Point>
+<coordinates>-71.6667,-73.1667</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>061 MARGUERITE BAY                            </name>
+<description><table><tr><td colspan="9"><b>MARGUERITE BAY</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-69.9667, -68.85)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (16, NaN)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>01 : Bottom Pressure Recorder</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>Potter et al. (1985: Brit. Ant. Surv. Bull., No. 68, 1-18) </i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>5.8</td><td>25.9</td><td>10.7</td><td>31.9</td><td>7.0</td><td>12.4</td><td>22.0</td><td>5.7</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>79.0</td><td>76.0</td><td>91.0</td><td>93.0</td><td>158.0</td><td>267.0</td><td>78.0</td><td>79.0</td></tr>
+</table>
+</description>
+<styleUrl>#bprStyleMap</styleUrl>
+<Point>
+<coordinates>-68.85,-69.9667</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>062 MOUTONNEE LAKE                </name>
+<description><table><tr><td colspan="9"><b>MOUTONNEE LAKE (LOOKS BAD)</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-70.8667, -68.3833)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (15, NaN)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>02 : Coastal Tide Gauge, Tide gauge on floating ice, measuring wire to bottom</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>Cartwright (1979: Brit. Ant. Surv. Bull., No. 49, 167-79)</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>3.1</td><td>14.8</td><td>5.8</td><td>17.8</td><td>0.3</td><td>7.0</td><td>15.2</td><td>4.4</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>59.0</td><td>68.0</td><td>82.0</td><td>84.0</td><td>0.0</td><td>262.0</td><td>45.0</td><td>41.0</td></tr>
+</table>
+</description>
+<styleUrl>#ctgStyleMap</styleUrl>
+<Point>
+<coordinates>-68.3833,-70.8667</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>063 ABLATION LAKE                              </name>
+<description><table><tr><td colspan="9"><b>ABLATION LAKE</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-70.8167, -68.4167)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (54, NaN)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>02 : Coastal Tide Gauge, Tide gauge on floating ice, measuring wire to bottom</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>Cartwright (1979: Brit. Ant. Surv. Bull., No. 49, 167-79)</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>5.8</td><td>25.8</td><td>10.5</td><td>30.3</td><td>8.2</td><td>15.2</td><td>23.9</td><td>6.7</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>82.0</td><td>73.0</td><td>82.0</td><td>88.0</td><td>154.0</td><td>269.0</td><td>77.0</td><td>78.0</td></tr>
+</table>
+</description>
+<styleUrl>#ctgStyleMap</styleUrl>
+<Point>
+<coordinates>-68.4167,-70.8167</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>064 HOBBS POOL                                </name>
+<description><table><tr><td colspan="9"><b>HOBBS POOL</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-71.3, -67.5833)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (15, NaN)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>02 : Coastal Tide Gauge, Tide gauge on floating ice, measuring wire to bottom</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>Cartwright (1979: Brit. Ant. Surv. Bull., No. 49, 167-79)</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>6.0</td><td>26.7</td><td>10.9</td><td>31.4</td><td>8.6</td><td>15.9</td><td>24.9</td><td>7.0</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>91.0</td><td>81.0</td><td>91.0</td><td>96.0</td><td>160.0</td><td>275.0</td><td>83.0</td><td>84.0</td></tr>
+</table>
+</description>
+<styleUrl>#ctgStyleMap</styleUrl>
+<Point>
+<coordinates>-67.5833,-71.3</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>065 ANSLOPE           </name>
+<description><table><tr><td colspan="9"><b>ANSLOPE (NW ROSS SEA SHELF BREAK)</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-72.12, 173.578)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (325, NaN)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>01 : Bottom Pressure Recorder</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>L. Padman (padman@esr.org); pers. comm.</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>8.5</td><td>39.5</td><td>11.7</td><td>35.0</td><td>3.6</td><td>8.8</td><td>6.1</td><td>1.9</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>170.5</td><td>184.5</td><td>208.9</td><td>212.8</td><td>321.1</td><td>31.2</td><td>10.1</td><td>9.6</td></tr>
+</table>
+</description>
+<styleUrl>#bprStyleMap</styleUrl>
+<Point>
+<coordinates>173.578,-72.12</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>066 HALLEY                                      </name>
+<description><table><tr><td colspan="9"><b>HALLEY</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-75.5793, 333.4752)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (365, NaN)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>03 : GPS</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>M. King (m.a.king@newcastle.ac.uk); pers. comm.</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>6.9</td><td>31.1</td><td>10.3</td><td>29.8</td><td>10.2</td><td>70.1</td><td>48.4</td><td>15.2</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>354.2</td><td>2.8</td><td>9.3</td><td>9.4</td><td>216.9</td><td>232.7</td><td>254.6</td><td>251.4</td></tr>
+</table>
+</description>
+<styleUrl>#gpsStyleMap</styleUrl>
+<Point>
+<coordinates>333.4752,-75.5793</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>067 TS01                         </name>
+<description><table><tr><td colspan="9"><b>AMERY ICE SHELF TS01</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-69.5626, 71.9689)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (48, NaN)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>03 : GPS</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>M. King (m.a.king@newcastle.ac.uk); pers. comm.</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>7.5</td><td>29.3</td><td>9.9</td><td>29.5</td><td>7.9</td><td>22.0</td><td>22.1</td><td>6.4</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>268.0</td><td>272.8</td><td>279.3</td><td>282.8</td><td>186.7</td><td>216.5</td><td>320.7</td><td>322.0</td></tr>
+</table>
+</description>
+<styleUrl>#gpsStyleMap</styleUrl>
+<Point>
+<coordinates>71.9689,-69.5626</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>068 TS03                         </name>
+<description><table><tr><td colspan="9"><b>AMERY ICE SHELF TS03</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-69.183, 70.3916)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (57, NaN)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>03 : GPS</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>M. King (m.a.king@newcastle.ac.uk); pers. comm.</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>7.8</td><td>30.0</td><td>9.9</td><td>29.4</td><td>7.5</td><td>21.8</td><td>21.6</td><td>6.2</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>268.6</td><td>274.3</td><td>281.6</td><td>285.1</td><td>193.2</td><td>223.1</td><td>327.4</td><td>328.7</td></tr>
+</table>
+</description>
+<styleUrl>#gpsStyleMap</styleUrl>
+<Point>
+<coordinates>70.3916,-69.183</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>069 TS04                         </name>
+<description><table><tr><td colspan="9"><b>AMERY ICE SHELF TS04</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-70.2235, 71.5806)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (65, NaN)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>03 : GPS</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>M. King (m.a.king@newcastle.ac.uk); pers. comm.</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>8.1</td><td>31.4</td><td>10.3</td><td>30.7</td><td>8.4</td><td>24.5</td><td>25.4</td><td>7.3</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>266.5</td><td>272.0</td><td>278.9</td><td>282.4</td><td>182.1</td><td>216.8</td><td>318.8</td><td>320.1</td></tr>
+</table>
+</description>
+<styleUrl>#gpsStyleMap</styleUrl>
+<Point>
+<coordinates>71.5806,-70.2235</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>070 TS05     </name>
+<description><table><tr><td colspan="9"><b>AMERY ICE SHELF TS05 (PARTIALLY GROUNDED)</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-73.2534, 67.0705)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (67, NaN)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>03 : GPS</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>M. King (m.a.king@newcastle.ac.uk); pers. comm.</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>3.1</td><td>8.5</td><td>2.3</td><td>6.9</td><td>2.6</td><td>6.4</td><td>6.5</td><td>1.9</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>279.0</td><td>286.6</td><td>273.8</td><td>277.1</td><td>197.8</td><td>236.6</td><td>332.5</td><td>333.8</td></tr>
+</table>
+</description>
+<styleUrl>#gpsStyleMap</styleUrl>
+<Point>
+<coordinates>67.0705,-73.2534</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>071 AFLT                          </name>
+<description><table><tr><td colspan="9"><b>ROSS ICE SHELF AFLT</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-83.9612, 192.3121)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (68, NaN)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>03 : GPS</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>M. King (m.a.king@newcastle.ac.uk); pers. comm.; data courtesy S. Anandakrishnan</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>8.1</td><td>35.2</td><td>14.7</td><td>41.0</td><td>10.4</td><td>10.8</td><td>8.9</td><td>4.1</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>160.5</td><td>182.4</td><td>199.8</td><td>198.0</td><td>124.0</td><td>227.0</td><td>173.8</td><td>236.2</td></tr>
+</table>
+</description>
+<styleUrl>#gpsStyleMap</styleUrl>
+<Point>
+<coordinates>192.3121,-83.9612</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>072 BFLT                          </name>
+<description><table><tr><td colspan="9"><b>ROSS ICE SHELF BFLT</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-82.5317, 194.0435)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (74, NaN)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>03 : GPS</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>M. King (m.a.king@newcastle.ac.uk); pers. comm.; data courtesy S. Anandakrishnan</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>7.9</td><td>36.0</td><td>14.7</td><td>41.6</td><td>10.1</td><td>10.5</td><td>10.9</td><td>6.2</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>150.1</td><td>171.2</td><td>184.1</td><td>184.2</td><td>81.1</td><td>183.7</td><td>128.6</td><td>159.5</td></tr>
+</table>
+</description>
+<styleUrl>#gpsStyleMap</styleUrl>
+<Point>
+<coordinates>194.0435,-82.5317</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>073 DFLT                          </name>
+<description><table><tr><td colspan="9"><b>ROSS ICE SHELF DFLT</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-80.4981, 208.9742)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (74, NaN)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>03 : GPS</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>M. King (m.a.king@newcastle.ac.uk); pers. comm.; data courtesy S. Anandakrishnan</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>8.0</td><td>37.5</td><td>14.6</td><td>44.0</td><td>12.4</td><td>12.6</td><td>13.9</td><td>10.2</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>122.1</td><td>138.1</td><td>147.1</td><td>151.1</td><td>343.4</td><td>90.2</td><td>50.2</td><td>86.1</td></tr>
+</table>
+</description>
+<styleUrl>#gpsStyleMap</styleUrl>
+<Point>
+<coordinates>208.9742,-80.4981</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>074 SIPLE W5C                                    </name>
+<description><table><tr><td colspan="9"><b>SIPLE W5C</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-83.0101, 194.2925)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (43, NaN)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>03 : GPS</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>M. King (m.a.king@newcastle.ac.uk); pers. comm.; data courtesy S. Anandakrishnan</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>8.3</td><td>35.8</td><td>15.1</td><td>42.3</td><td>11.6</td><td>10.7</td><td>10.3</td><td>6.0</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>171.9</td><td>174.1</td><td>190.0</td><td>190.0</td><td>102.2</td><td>203.8</td><td>138.7</td><td>169.7</td></tr>
+</table>
+</description>
+<styleUrl>#gpsStyleMap</styleUrl>
+<Point>
+<coordinates>194.2925,-83.0101</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>075 NORTH RONNE                                 </name>
+<description><table><tr><td colspan="9"><b>NORTH RONNE</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-75.9253, 300.6933)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (25, NaN)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>03 : GPS</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>pers. comm. Matt King, University of Newcastle, UK; t_tide with Rayleigh 0.8</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>8.1</td><td>38.5</td><td>12.8</td><td>37.5</td><td>4.8</td><td>27.4</td><td>14.3</td><td>4.1</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>24.0</td><td>46.9</td><td>59.8</td><td>57.7</td><td>76.5</td><td>124.3</td><td>157.5</td><td>157.4</td></tr>
+</table>
+</description>
+<styleUrl>#gpsStyleMap</styleUrl>
+<Point>
+<coordinates>300.6933,-75.9253</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>076 RUTFORD GPS                                 </name>
+<description><table><tr><td colspan="9"><b>RUTFORD GPS</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-78.6472, 277.3329)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (56, 300)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>03 : GPS</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>pers. comm. Matt King, University of Newcastle, UK; P1, K2 inferred</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>9.5</td><td>43.1</td><td>16.6</td><td>49.0</td><td>24.8</td><td>156.3</td><td>101.6</td><td>29.1</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>29.2</td><td>53.5</td><td>64.2</td><td>62.3</td><td>34.2</td><td>69.7</td><td>100.4</td><td>99.5</td></tr>
+</table>
+</description>
+<styleUrl>#gpsStyleMap</styleUrl>
+<Point>
+<coordinates>277.3329,-78.6472</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>077 CAPE ROBERTS                       </name>
+<description><table><tr><td colspan="9"><b>CAPE ROBERTS TIDE GAUGE</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-77.032, 163.163)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (365, 3600)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>01 : Bottom Pressure Recorder,  Vented pressure transducer</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>Goring and Pyne (2003: NZ J. Mar. Freshw. Res., 27, 241-249)</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>4.6</td><td>20.9</td><td>6.8</td><td>20.6</td><td>3.7</td><td>5.5</td><td>4.8</td><td>1.8</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>190.7</td><td>203.2</td><td>214.8</td><td>217.1</td><td>258.9</td><td>6.5</td><td>312.5</td><td>315.9</td></tr>
+</table>
+</description>
+<styleUrl>#bprStyleMap</styleUrl>
+<Point>
+<coordinates>163.163,-77.032</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>078 SCOTT BASE                         </name>
+<description><table><tr><td colspan="9"><b>SCOTT BASE TIDE GAUGE</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-77.85, 166.764)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (365, 3600)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>02 : Coastal Tide Gauge, Nitrogen bubbler</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>Goring and Pyne (2003: NZ J. Mar. Freshw. Res., 27, 241-249)</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>5.0</td><td>22.5</td><td>8.0</td><td>24.5</td><td>2.7</td><td>3.9</td><td>3.3</td><td>1.4</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>184.5</td><td>192.6</td><td>204.2</td><td>206.6</td><td>248.9</td><td>358.5</td><td>291.9</td><td>299.4</td></tr>
+</table>
+</description>
+<styleUrl>#ctgStyleMap</styleUrl>
+<Point>
+<coordinates>166.764,-77.85</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>079 TERRA NOVA BAY                     </name>
+<description><table><tr><td colspan="9"><b>TERRA NOVA BAY TIDE GAUGE</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-74.75, 164)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (119, 3600)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>01 : Bottom Pressure Recorder, Unvented pressure transducer</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>Goring and Pyne (2003: NZ J. Mar. Freshw. Res., 27, 241-249)</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>4.1</td><td>18.3</td><td>6.0</td><td>16.8</td><td>4.4</td><td>6.9</td><td>5.9</td><td>2.5</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>146.0</td><td>169.6</td><td>204.8</td><td>204.2</td><td>228.8</td><td>336.3</td><td>304.7</td><td>329.1</td></tr>
+</table>
+</description>
+<styleUrl>#bprStyleMap</styleUrl>
+<Point>
+<coordinates>164,-74.75</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>080 FOUNDATION ICE STREAM                          </name>
+<description><table><tr><td colspan="9"><b>FOUNDATION ICE STREAM</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-83.167, -59.5752)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (30, NaN)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>04 : Gravimeter</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>Lambrecht et al. (1997: Polarforschung, 65(1), 15-25).</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>7.7</td><td>34.9</td><td>12.4</td><td>37.4</td><td>15.9</td><td>105.6</td><td>68.3</td><td>20.4</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>29.1</td><td>30.1</td><td>38.1</td><td>41.1</td><td>357.3</td><td>10.3</td><td>34.8</td><td>32.2</td></tr>
+</table>
+</description>
+<styleUrl>#grvStyleMap</styleUrl>
+<Point>
+<coordinates>-59.5752,-83.167</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>081 DOAKE ICE RUMPLES                              </name>
+<description><table><tr><td colspan="9"><b>DOAKE ICE RUMPLES</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-79.7333, -67.35)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (43, NaN)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>05 : Tiltmeter, with elastic beam modeling</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>Smith (1991: J. Glaciol., 37 (125), 51-58), revised by Keith Nicholls (BAS)</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>8.8</td><td>32.1</td><td>11.8</td><td>36.5</td><td>24.2</td><td>130.4</td><td>82.6</td><td>25.1</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>77.1</td><td>70.2</td><td>56.1</td><td>58.0</td><td>67.6</td><td>73.8</td><td>74.9</td><td>71.0</td></tr>
+</table>
+</description>
+<styleUrl>#tltStyleMap</styleUrl>
+<Point>
+<coordinates>-67.35,-79.7333</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>082 ELLSWORTH                                      </name>
+<description><table><tr><td colspan="9"><b>ELLSWORTH</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-77.71, -41.1333)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (34, NaN)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>04 : Gravimeter</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>Thiel et al. (1960: J. Geophys. Res., 65 (2), 629-636), phases corrected to Greenwich by Doake (1992)</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>NaN</td><td>26.1</td><td>NaN</td><td>NaN</td><td>NaN</td><td>51.1</td><td>27.5</td><td>NaN</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>NaN</td><td>21.9</td><td>NaN</td><td>NaN</td><td>NaN</td><td>284.3</td><td>314.6</td><td>NaN</td></tr>
+</table>
+</description>
+<styleUrl>#grvStyleMap</styleUrl>
+<Point>
+<coordinates>-41.1333,-77.71</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>083 DURMONT D'URVILLE                               </name>
+<description><table><tr><td colspan="9"><b>DURMONT D'URVILLE</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-66.6617, 140.01)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (1961, 3600)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>01 : Bottom Pressure Recorder</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>pers. comm. Laurie Padman, ESR</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>7.0</td><td>30.6</td><td>9.8</td><td>30.0</td><td>7.1</td><td>26.6</td><td>14.8</td><td>4.4</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>196.5</td><td>208.3</td><td>224.9</td><td>227.0</td><td>45.2</td><td>63.3</td><td>112.2</td><td>111.5</td></tr>
+</table>
+</description>
+<styleUrl>#bprStyleMap</styleUrl>
+<Point>
+<coordinates>140.01,-66.6617</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>084 MARGUERITE BAY A3                                </name>
+<description><table><tr><td colspan="9"><b>MARGUERITE BAY A3</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-66.75, -70.9998)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (319, 3600)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>01 : Bottom Pressure Recorder</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>SO GLOBEC (2001/2002): pers. comm. C. Moffat and R. Beardsley, WHOI</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>5.2</td><td>24.7</td><td>9.4</td><td>29.3</td><td>4.5</td><td>12.4</td><td>14.3</td><td>4.0</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>61.8</td><td>70.0</td><td>85.0</td><td>87.9</td><td>165.2</td><td>262.2</td><td>64.0</td><td>68.1</td></tr>
+</table>
+</description>
+<styleUrl>#bprStyleMap</styleUrl>
+<Point>
+<coordinates>-70.9998,-66.75</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>085 FR02               </name>
+<description><table><tr><td colspan="9"><b>FRIS GPS FR02 (INF. FROM CATS2008A)</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-80.9928, -46.2884)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (117, 300)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>03 : GPS</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>BAS Weddell Sea AFI GPS Campaign: pers. comm. M.A. King, U. Newcastle, U.K.</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>7.7</td><td>37.2</td><td>13.5</td><td>39.6</td><td>10.4</td><td>76.5</td><td>47.3</td><td>14.3</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>22.5</td><td>31.1</td><td>39.0</td><td>39.2</td><td>340.4</td><td>354.4</td><td>14.9</td><td>14.0</td></tr>
+</table>
+</description>
+<styleUrl>#gpsStyleMap</styleUrl>
+<Point>
+<coordinates>-46.2884,-80.9928</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>086 FR03              </name>
+<description><table><tr><td colspan="9"><b>FRIS GPS FR03 (INF. FROM CATS2008A)</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-82.2088, -58.5467)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (68, 300)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>03 : GPS</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>BAS Weddell Sea AFI GPS Campaign: pers. comm. M.A. King, U. Newcastle, U.K.</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>8.3</td><td>41.8</td><td>15.4</td><td>45.6</td><td>13.9</td><td>111.2</td><td>69.3</td><td>20.2</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>31.2</td><td>35.4</td><td>42.3</td><td>42.0</td><td>4.8</td><td>10.5</td><td>34.8</td><td>34.7</td></tr>
+</table>
+</description>
+<styleUrl>#gpsStyleMap</styleUrl>
+<Point>
+<coordinates>-58.5467,-82.2088</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>087 FR04                           </name>
+<description><table><tr><td colspan="9"><b>FRIS GPS FR04 (INF. FROM FR05)</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-80.1838, -72.8825)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (39, 300)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>03 : GPS</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>BAS Weddell Sea AFI GPS Campaign: pers. comm. M.A. King, U. Newcastle, U.K.</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>10.0</td><td>44.8</td><td>16.4</td><td>47.1</td><td>23.1</td><td>151.5</td><td>99.8</td><td>28.7</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>30.9</td><td>53.4</td><td>62.2</td><td>60.7</td><td>28.6</td><td>60.2</td><td>82.7</td><td>78.4</td></tr>
+</table>
+</description>
+<styleUrl>#gpsStyleMap</styleUrl>
+<Point>
+<coordinates>-72.8825,-80.1838</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>088 FR05                                    </name>
+<description><table><tr><td colspan="9"><b>FRIS GPS FR05</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-78.261, -70.9029)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (370, 300)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>03 : GPS</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>BAS Weddell Sea AFI GPS Campaign: pers. comm. M.A. King, U. Newcastle, U.K.</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>9.2</td><td>40.1</td><td>14.3</td><td>42.4</td><td>17.5</td><td>119.1</td><td>74.9</td><td>22.3</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>50.0</td><td>58.3</td><td>69.9</td><td>67.6</td><td>56.1</td><td>73.2</td><td>100.7</td><td>100.1</td></tr>
+</table>
+</description>
+<styleUrl>#gpsStyleMap</styleUrl>
+<Point>
+<coordinates>-70.9029,-78.261</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>089 FR06             </name>
+<description><table><tr><td colspan="9"><b>FRIS GPS FR06 (INF. FROM CATS2008A)</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-76.6849, -66.5136)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (55, 300)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>03 : GPS</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>BAS Weddell Sea AFI GPS Campaign: pers. comm. M.A. King, U. Newcastle, U.K.</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>7.7</td><td>38.8</td><td>13.5</td><td>38.9</td><td>11.8</td><td>89.6</td><td>55.4</td><td>16.0</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>43.7</td><td>64.1</td><td>77.1</td><td>75.5</td><td>65.7</td><td>94.3</td><td>121.9</td><td>117.5</td></tr>
+</table>
+</description>
+<styleUrl>#gpsStyleMap</styleUrl>
+<Point>
+<coordinates>-66.5136,-76.6849</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>090 FR07                                    </name>
+<description><table><tr><td colspan="9"><b>FRIS GPS FR07</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-75.8785, -59.1495)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (214, 300)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>03 : GPS</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>BAS Weddell Sea AFI GPS Campaign: pers. comm. M.A. King, U. Newcastle, U.K.</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>8.6</td><td>37.4</td><td>12.2</td><td>37.7</td><td>3.7</td><td>25.5</td><td>16.0</td><td>5.2</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>37.2</td><td>47.6</td><td>58.3</td><td>59.0</td><td>102.6</td><td>129.3</td><td>172.6</td><td>169.0</td></tr>
+</table>
+</description>
+<styleUrl>#gpsStyleMap</styleUrl>
+<Point>
+<coordinates>-59.1495,-75.8785</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>091 FR08            </name>
+<description><table><tr><td colspan="9"><b>FRIS GPS FR08  (INF. FROM CATS2008A)</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-77.6797, -61.9)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (18, 300)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>03 : GPS</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>BAS Weddell Sea AFI GPS Campaign: pers. comm. M.A. King, U. Newcastle, U.K.</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>NaN</td><td>30.4</td><td>11.5</td><td>33.6</td><td>NaN</td><td>60.7</td><td>43.1</td><td>11.9</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>NaN</td><td>50.4</td><td>64.1</td><td>62.6</td><td>NaN</td><td>66.0</td><td>92.6</td><td>91.5</td></tr>
+</table>
+</description>
+<styleUrl>#gpsStyleMap</styleUrl>
+<Point>
+<coordinates>-61.9,-77.6797</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>092 FR09                                   </name>
+<description><table><tr><td colspan="9"><b>FRIS GPS FR09</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-79.155, -53.2001)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (307, 300)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>03 : GPS</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>BAS Weddell Sea AFI GPS Campaign: pers. comm. M.A. King, U. Newcastle, U.K.</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>7.5</td><td>33.2</td><td>11.8</td><td>35.3</td><td>10.4</td><td>68.3</td><td>39.9</td><td>11.7</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>31.4</td><td>39.1</td><td>52.3</td><td>46.6</td><td>5.0</td><td>19.6</td><td>44.3</td><td>42.8</td></tr>
+</table>
+</description>
+<styleUrl>#gpsStyleMap</styleUrl>
+<Point>
+<coordinates>-53.2001,-79.155</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>093 FR10        </name>
+<description><table><tr><td colspan="9"><b>FRIS GPS FR10 (INF. MEAN OF FR07 AND FR09)</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-77.1889, -52.2055)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (78, 300)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>03 : GPS</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>BAS Weddell Sea AFI GPS Campaign: pers. comm. M.A. King, U. Newcastle, U.K.</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>6.3</td><td>30.1</td><td>8.9</td><td>31.7</td><td>3.5</td><td>23.2</td><td>15.8</td><td>4.7</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>16.1</td><td>33.0</td><td>43.6</td><td>41.8</td><td>309.1</td><td>325.6</td><td>332.0</td><td>329.5</td></tr>
+</table>
+</description>
+<styleUrl>#gpsStyleMap</styleUrl>
+<Point>
+<coordinates>-52.2055,-77.1889</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>094 LAR1         </name>
+<description><table><tr><td colspan="9"><b>LARSEN C GPS LAR1 (INFERENCE FROM LAR2)</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-67.0133, -61.5124)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (50, 300)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>03 : GPS</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>BAS Weddell Sea AFI GPS Campaign: pers. comm. M.A. King, U. Newcastle, U.K.</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>7.4</td><td>31.8</td><td>11.8</td><td>35.8</td><td>14.3</td><td>89.5</td><td>62.6</td><td>18.4</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>342.7</td><td>3.9</td><td>15.3</td><td>17.1</td><td>220.9</td><td>250.8</td><td>281.2</td><td>283.0</td></tr>
+</table>
+</description>
+<styleUrl>#gpsStyleMap</styleUrl>
+<Point>
+<coordinates>-61.5124,-67.0133</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>095 LAR2                                </name>
+<description><table><tr><td colspan="9"><b>LARSEN C GPS LAR2</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-68.0004, -64.2942)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (433, 300)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>03 : GPS</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>BAS Weddell Sea AFI GPS Campaign: pers. comm. M.A. King, U. Newcastle, U.K.</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>6.2</td><td>29.9</td><td>11.7</td><td>36.1</td><td>13.7</td><td>96.6</td><td>64.8</td><td>19.2</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>344.4</td><td>352.7</td><td>5.5</td><td>6.2</td><td>228.3</td><td>245.4</td><td>274.7</td><td>275.2</td></tr>
+</table>
+</description>
+<styleUrl>#gpsStyleMap</styleUrl>
+<Point>
+<coordinates>-64.2942,-68.0004</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>096 LAR3          </name>
+<description><table><tr><td colspan="9"><b>LARSEN C GPS LAR3 (INFERENCE FROM LAR2)</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-68.5008, -62.0018)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (64, 300)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>03 : GPS</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>BAS Weddell Sea AFI GPS Campaign: pers. comm. M.A. King, U. Newcastle, U.K.</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>6.3</td><td>27.7</td><td>10.3</td><td>31.9</td><td>13.8</td><td>88.3</td><td>63.3</td><td>18.8</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>342.5</td><td>0.2</td><td>9.2</td><td>9.8</td><td>217.7</td><td>242.1</td><td>269.7</td><td>270.2</td></tr>
+</table>
+</description>
+<styleUrl>#gpsStyleMap</styleUrl>
+<Point>
+<coordinates>-62.0018,-68.5008</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>097 SLGN1         </name>
+<description><table><tr><td colspan="9"><b>LARSEN C GPS SLGN1 (INFERENCE FROM LAR2)</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-67.9515, -62.6691)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (38, 300)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>03 : GPS</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>pers. comm. B. Kulessa (U. Swansea) via M.A. King, U. Newcastle, U.K.</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>6.9</td><td>28.0</td><td>11.0</td><td>33.4</td><td>14.7</td><td>87.4</td><td>65.7</td><td>19.3</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>339.4</td><td>354.3</td><td>6.0</td><td>7.8</td><td>219.6</td><td>244.3</td><td>268.8</td><td>270.6</td></tr>
+</table>
+</description>
+<styleUrl>#gpsStyleMap</styleUrl>
+<Point>
+<coordinates>-62.6691,-67.9515</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>098 SLGS1          </name>
+<description><table><tr><td colspan="9"><b>LARSEN C GPS SLGS1 (INFERENCE FROM LAR2)</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-67.9984, -62.6878)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (36, 300)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>03 : GPS</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>pers. comm. B. Kulessa (U. Swansea) via M.A. King, U. Newcastle, U.K.</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>7.0</td><td>28.1</td><td>10.2</td><td>31.1</td><td>14.8</td><td>89.1</td><td>74.0</td><td>21.8</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>334.7</td><td>354.0</td><td>7.1</td><td>8.9</td><td>216.4</td><td>244.0</td><td>269.3</td><td>271.1</td></tr>
+</table>
+</description>
+<styleUrl>#gpsStyleMap</styleUrl>
+<Point>
+<coordinates>-62.6878,-67.9984</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>099 MOBIL OIL INLET         </name>
+<description><table><tr><td colspan="9"><b>LARSEN C MOBIL OIL INLET (INF. FROM LAR2)</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-68.5517, -65.1549)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (41, 300)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>03 : GPS</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>pers. comm. A, Shepherd (Leeds) via M.A. King, U. Newcastle, U.K.</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>4.9</td><td>31.7</td><td>12.8</td><td>39.5</td><td>11.6</td><td>103.4</td><td>69.2</td><td>20.5</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>339.6</td><td>351.6</td><td>2.7</td><td>3.3</td><td>229.5</td><td>244.7</td><td>277.6</td><td>278.1</td></tr>
+</table>
+</description>
+<styleUrl>#gpsStyleMap</styleUrl>
+<Point>
+<coordinates>-65.1549,-68.5517</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>100 DOTSON                               </name>
+<description><table><tr><td colspan="9"><b>TIDE_DOTSON.MAT</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-74.0582, -112.4178)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (373, 720)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>07 : Moored Pressure Recorder, ~4 m above seabed on taut mooring</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>Pers. comm., S. Jacobs and B. Huber (LDEO)</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>6.2</td><td>28.5</td><td>10.9</td><td>34.4</td><td>8.0</td><td>5.0</td><td>14.5</td><td>4.3</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>89.1</td><td>99.4</td><td>113.8</td><td>116.5</td><td>209.1</td><td>249.9</td><td>163.3</td><td>167.7</td></tr>
+</table>
+</description>
+<styleUrl>#mprStyleMap</styleUrl>
+<Point>
+<coordinates>-112.4178,-74.0582</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>101 GETZCTRL                              </name>
+<description><table><tr><td colspan="9"><b>TIDE_GETZCTRL.MAT</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-73.8168, -116.9985)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (364, 720)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>07 : Moored Pressure Recorder, ~4 m above seabed on taut mooring</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>Pers. comm., S. Jacobs and B. Huber (LDEO)</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>6.2</td><td>28.8</td><td>11.0</td><td>34.4</td><td>7.0</td><td>4.3</td><td>11.7</td><td>3.5</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>92.5</td><td>102.7</td><td>117.9</td><td>120.1</td><td>218.2</td><td>248.6</td><td>175.6</td><td>178.6</td></tr>
+</table>
+</description>
+<styleUrl>#mprStyleMap</styleUrl>
+<Point>
+<coordinates>-116.9985,-73.8168</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>102 GETZEAST                             </name>
+<description><table><tr><td colspan="9"><b>TIDE_GETZEAST.MAT </b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-73.8465, -115.57)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (372, 720)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>07 : Moored Pressure Recorder, ~4 m above seabed on taut mooring</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>Pers. comm., S. Jacobs and B. Huber (LDEO)</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>6.2</td><td>28.8</td><td>11.0</td><td>34.5</td><td>7.2</td><td>4.3</td><td>12.3</td><td>3.7</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>90.2</td><td>100.6</td><td>115.9</td><td>117.8</td><td>212.4</td><td>246.3</td><td>169.0</td><td>173.1</td></tr>
+</table>
+</description>
+<styleUrl>#mprStyleMap</styleUrl>
+<Point>
+<coordinates>-115.57,-73.8465</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>103 PINEISLAND                            </name>
+<description><table><tr><td colspan="9"><b>TIDE_PINEISLAND.MAT</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-74.6085, -103.8727)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (354, 720)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>07 : Moored Pressure Recorder, ~4 m above seabed on taut mooring</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>Pers. comm., S. Jacobs and B. Huber (LDEO)</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>6.3</td><td>29.2</td><td>11.3</td><td>35.6</td><td>9.1</td><td>5.7</td><td>17.2</td><td>5.1</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>85.6</td><td>95.8</td><td>110.1</td><td>112.9</td><td>199.8</td><td>243.2</td><td>152.2</td><td>155.9</td></tr>
+</table>
+</description>
+<styleUrl>#mprStyleMap</styleUrl>
+<Point>
+<coordinates>-103.8727,-74.6085</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>104 PINE ISLAND GPS                                </name>
+<description><table><tr><td colspan="9"><b>PINE ISLAND GPS</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-75.2811, -101.13)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (52, 300)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>03 : GPS, on Pine Island Ice Shelf, 2007/08</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>Pers. comm., R. Bindschadler and M.A. King</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>6.0</td><td>28.2</td><td>11.5</td><td>36.4</td><td>6.9</td><td>5.5</td><td>18.0</td><td>5.3</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>88.8</td><td>90.8</td><td>110.9</td><td>113.7</td><td>210.0</td><td>254.7</td><td>155.6</td><td>159.4</td></tr>
+</table>
+</description>
+<styleUrl>#gpsStyleMap</styleUrl>
+<Point>
+<coordinates>-101.13,-75.2811</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>105 EE2B                     </name>
+<description><table><tr><td colspan="9"><b>EVANS ICE STREAM GPS: EE2B</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-76.3092, -77.5841)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (94, 300)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>03 : GPS, on Evans Ice Stream, 2009/2010: inference from AFI FR05</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>Pers. comm., H. Gudmundsson and M.A. King</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>9.3</td><td>40.0</td><td>14.6</td><td>43.2</td><td>13.9</td><td>121.2</td><td>78.5</td><td>23.4</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>46.5</td><td>62.2</td><td>71.0</td><td>73.3</td><td>55.2</td><td>86.5</td><td>117.4</td><td>118.0</td></tr>
+</table>
+</description>
+<styleUrl>#gpsStyleMap</styleUrl>
+<Point>
+<coordinates>-77.5841,-76.3092</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>106 EE4A        </name>
+<description><table><tr><td colspan="9"><b>EVANS ICE STREAM GPS: EE4A (IN G. ZONE)</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-76.5566, -76.1974)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (83, 300)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>03 : GPS. on Evans Ice Stream, 2009/2010: inference from AFI FR05</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>Pers. comm., H. Gudmundsson and M.A. King</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>3.2</td><td>14.3</td><td>5.0</td><td>14.8</td><td>4.8</td><td>41.4</td><td>27.1</td><td>8.1</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>41.7</td><td>63.7</td><td>67.9</td><td>70.2</td><td>61.3</td><td>91.6</td><td>121.5</td><td>122.0</td></tr>
+</table>
+</description>
+<styleUrl>#gpsStyleMap</styleUrl>
+<Point>
+<coordinates>-76.1974,-76.5566</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>107 EE4B                     </name>
+<description><table><tr><td colspan="9"><b>EVANS ICE STREAM GPS: EE4B</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-76.6963, -76.6862)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (84, 300)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>03 : GPS. on Evans Ice Stream, 2009/2010: inference from AFI FR05</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>Pers. comm., H. Gudmundsson and M.A. King</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>8.6</td><td>39.8</td><td>14.6</td><td>43.1</td><td>15.0</td><td>122.8</td><td>79.5</td><td>23.7</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>42.4</td><td>61.1</td><td>67.6</td><td>69.9</td><td>58.9</td><td>84.5</td><td>114.5</td><td>115.0</td></tr>
+</table>
+</description>
+<styleUrl>#gpsStyleMap</styleUrl>
+<Point>
+<coordinates>-76.6862,-76.6963</coordinates>
+</Point>
+</Placemark>
+ 
+<Placemark>
+<name>108 EE55                     </name>
+<description><table><tr><td colspan="9"><b>EVANS ICE STREAM GPS: EE55</b></td></tr>
+<tr><td colspan="9"> <b>Lat,Lon: </b>-76.7589, -75.4167)</td></tr>
+<tr><td colspan="9"> <b>Record length (days), Sample interval (s)):</b> (154, 300)</td></tr>
+<tr><td colspan="9"> <b>Instrument type: </b>03 : GPS. on Evans Ice Stream, 2009/2010: inference from AFI FR05</td></tr>
+<tr><td colspan="9"> <b>Reference:</b> <i>Pers. comm., H. Gudmundsson and M.A. King</i></td></tr>
+<tr><td></td><td><b>Q<sub>1</sub></b></td><td><b>O<sub>1</sub></b></td><td><b>P<sub>1</sub></b></td><td><b>K<sub>1</sub></b></td><td><b>N<sub>2</sub></b></td><td><b>M<sub>2</sub></b></td><td><b>S<sub>2</sub></b></td><td><b>K<sub>2</sub></b></td></tr>
+<tr><td><b>Amp. (cm): </b></td><td>8.8</td><td>41.5</td><td>14.7</td><td>43.6</td><td>17.2</td><td>122.4</td><td>76.6</td><td>22.8</td></tr>
+<tr><td><b>Phase (Greenwich):</b></td><td>57.8</td><td>62.1</td><td>69.8</td><td>72.1</td><td>66.7</td><td>85.3</td><td>115.2</td><td>115.7</td></tr>
+</table>
+</description>
+<styleUrl>#gpsStyleMap</styleUrl>
+<Point>
+<coordinates>-75.4167,-76.7589</coordinates>
+</Point>
+</Placemark>
+ 
+</Document>
+</kml>
