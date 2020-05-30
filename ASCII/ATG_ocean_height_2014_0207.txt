@@ -1,0 +1,1098 @@
+% ATG_ocean_height_2014_0207.txt: Main file for Antarctic tide gauge database (OCEAN TIDE)    07 February 2014
+%
+% Total of 18 header lines, then 10 lines (including blank separator) per station.
+% Line 1: Station accession number 
+% Line 2: Full Station name
+% Line 3: Reference for site
+% Line 4: Short name
+% Line 5: lat, lon
+% Line 6: record length (days),   sample rate (seconds)
+% Line 7: Marker number,  Sensor type (01 - Bottom Pressure Recorder; 02 - Coastal Tide Gauge;
+%                      03 - GPS; 04 - Gravimeter; 05 - Tiltmeter; 06 - Visual Tide Staff; 
+%                      07 - Moored Pressure Recorder; 
+%                      plus additional info.
+%
+% Line 8: constituent amplitudes (cm), for Q1,O1,P1,K1,N2,M2,S2,K2 (NaN if not solved)
+% Line 9: constituent phases (deg. Greenwich), for Q1,O1,P1,K1,N2,M2,S2,K2 (NaN if not solved)
+% Line 10: blank separator (actually single space character)
+% 
+001 (accession number)
+faraday
+ACCLAIM: http://www.pol.ac.uk/psmsl/programmes/acclaim.info.html
+faraday  
+-65.250 -64.267                        (lat, lon)
+365    3600                            (record length (days), sample int. (s))
+01 : Bottom Pressure Recorder
+6.342    28.868    10.111    31.806     2.007    18.529    17.790     4.940
+58.937    69.771    79.465    81.695   170.735   287.870    32.249    36.318
+ 
+002 (accession number)
+forster    
+ACCLAIM: http://www.pol.ac.uk/psmsl/programmes/acclaim.info.html
+forster                               
+-70.772 -11.866                         (lat, lon)
+307.25 3600                             (record length (days), sample int. (s))
+01 : Bottom Pressure Recorder 
+6.452    27.142     8.650    25.749     5.234    33.948    25.487     7.280
+344.284   354.402     2.030     3.181   174.237   197.866   223.949   226.288
+ 
+003 (accession number)
+Rothera
+ACCLAIM: http://www.pol.ac.uk/psmsl/programmes/acclaim.info.html
+Rothera                                   
+-67.571 -68.129                         (lat, lon)
+365    900                              (record length (days), sample int. (s))
+01 : Bottom Pressure Recorder 
+5.004    24.385     9.206    30.151     7.035    11.751    18.702     5.230
+68.530    77.009    90.059    92.402   151.317   265.513    72.271    74.623
+ 
+004 (accession number)
+Signy
+ACCLAIM: http://www.pol.ac.uk/psmsl/programmes/acclaim.info.html  
+Signy                                    
+-60.700 -45.600                         (lat, lon)
+385    3600                             (record length (days), sample int. (s))
+01 : Bottom Pressure Recorder 
+4.396    17.885     5.034    14.970     7.304    45.282    25.175     7.614
+35.854    48.904    64.026    62.801   245.564   264.056   290.666   288.280
+ 
+005 (accession number) 
+PTC_4_2_01
+Pelagic Tidal Constants 3 (1992); and Gammelsrod and Slotsvik (1981: Polarforschung, 51, 101-111)
+PTC_4_2_01                     
+-77.117 -49.050                         (lat, lon)
+4.2    NaN                              (record length (days), sample int. (s))
+01 : Bottom Pressure Recorder, Aanderaa WLR-1
+6.040    28.416     9.901    29.010     7.327    48.713    29.109     8.020
+18.000    23.000    24.000    23.000   276.000   280.000   295.000   296.000
+ 
+006 (accession number) 
+PTC_4_2_02
+Pelagic Tidal Constants 3 (1992); and Foldvik et al. (1985: Polar Res. 3(2) 177-193)
+PTC_4_2_02                                                    
+-74.433 -39.400                         (lat, lon)  
+30     NaN                              (record length (days), sample int. (s))
+01 : Bottom Pressure Recorder, Aanderaa WLR-1
+7.822    32.376    10.594    31.782     8.713    52.871    38.317    10.792
+3.000     7.000     7.000     6.000   228.000   233.000   264.000   265.000
+ 
+007 (accession number)  
+PTC_4_2_03
+Pelagic Tidal Constants 3 (1992); and Foldvik et al. (1985: Polar Res. 3(2) 177-193)
+PTC_4_2_03                                
+-74.383 -37.650                          (lat, lon) 
+180    NaN                               (record length (days), sample int. (s))
+01 : Bottom Pressure Recorder, Aanderaa
+7.426    30.198    11.881    36.139     9.208    57.129    38.812    10.792
+358.000     6.000    17.000    17.000   227.000   242.000   262.000   263.000
+ 
+008 (accession number) 
+PTC_4_2_05 Georg Von Neumayer
+Pelagic Tidal Constants 3 (1992); and Pedley et al. (1986: J. Geophys. Res. 91(C11), 13,001-13,009)
+PTC_4_2_05             
+-70.433 -8.300                           (lat, lon)
+324    NaN                               (record length (days), sample int. (s))
+01 : Bottom Pressure Recorder, Aanderaa
+  8.020    29.010     9.010    27.030     8.020    40.990    30.000     8.020
+341.000   347.000   351.000   352.000   180.000   189.000   211.000   214.000
+ 
+009 (accession number) 
+PTC_4_2_06 Kapp Norvegia
+Pelagic Tidal Constants 3 (1992); and Pedley et al. (1986: J. Geophys. Res. 91(C11), 13,001-13,009)
+PTC_4_2_06                  
+-71.050 -11.750                          (lat, lon)
+367    NaN                               (record length (days), sample int. (s))
+01 : Bottom Pressure Recorder, Aanderaa
+  7.030    29.010     9.010    27.030     7.030    46.040    32.970    10.000
+349.000   352.000   356.000   358.000   193.000   201.000   223.000   222.000
+ 
+010 (accession number)
+PTC_4_2_07 Vestkapp
+Pelagic Tidal Constants 3 (1992); and Pedley et al. (1986: J. Geophys. Res. 91(C11), 13,001-13,009)
+PTC_4_2_07                     
+-72.883 -19.617                          (lat, lon)
+316    NaN                               (record length (days), sample int. (s))
+01 : Bottom Pressure Recorder, Aanderaa
+  8.020    30.990    10.000    29.010     9.010    56.040    39.010    10.990  
+352.000   359.000     4.000     5.000   209.000   220.000   242.000   241.000
+ 
+011 (accession number)
+PTC_4_2_12 Signy Line station 3
+Pelagic Tidal Constants 3 (1992)
+Signy Line sta 3          
+-56.667 -52.483                          (lat, lon)
+375    NaN                               (record length (days), sample int. (s))
+01 : Bottom Pressure Recorder
+ 3.960    16.634     4.059    12.574     7.426    39.505    16.238     4.653
+44.000    57.000    85.000    93.000   249.000   274.000   309.000   305.000
+ 
+012 (accession number)
+PTC_4_2_19 Signy Line station 5
+Pelagic Tidal Constants 3 (1992)
+Signy Line sta 5           
+-60.050 -47.083                      (lat, lon)
+408    NaN                           (record length (days), sample int. (s))
+01 : Bottom Pressure Recorder
+ 4.257    18.515     4.950    15.248     6.832    41.584    20.891     6.040
+39.000    50.000    64.000    67.000   248.000   268.000   299.000   296.000
+ 
+013 (accession number) 
+PTC_4_2_20
+Pelagic Tidal Constants 3 (1992); and Pedley et al. (1986: J. Geophys. Res. 91(C11), 13,001-13,009)
+PTC_4_2_20                              
+-73.133 -72.533                     (lat, lon) 
+357    NaN                          (record length (days), sample int. (s)) 
+01 : Bottom Pressure Recorder, Aanderaa WLR-5
+5.347    27.030    10.693    33.762     8.020    13.069    28.218     8.218
+71.000    80.000    96.000    98.000   164.000   264.000    91.000    97.000
+ 
+014 (accession number) 
+PTC_4_2_21
+Pelagic Tidal Constants 3, Additions;      
+PTC_4_2_21                           
+-56.483 -62.983                     (lat, lon)  
+320    NaN                          (record length (days), sample int. (s)) 
+01 : Bottom Pressure Recorder
+3.663    17.030     5.545    17.327     8.911    43.168    10.297     2.772
+31.000    53.000    90.000    97.000   229.000   265.000   318.000   311.000
+ 
+015 (accession number)
+PTC_4_2_24
+Pelagic Tidal Constants 3, Additions;
+PTC_4_2_24                              
+-61.467 -61.283                     (lat, lon)  
+320    NaN                          (record length (days), sample int. (s))    
+01 : Bottom Pressure Recorder 
+4.752    22.178     7.525    23.069     4.752    32.475    14.653     3.960
+38.000    51.000    68.000    72.000   223.000   268.000   342.000   340.000
+ 
+016 (accession number) 
+PTC_4_2_27
+Pelagic Tidal Constants 3, Additions;
+PTC_4_2_27                              
+-60.850 -54.717                     (lat, lon)  
+378    NaN                          (record length (days), sample int. (s))    
+01 : Bottom Pressure Recorder  
+4.554    19.901     6.634    19.406     6.931    43.366    21.683     6.139
+38.000    49.000    62.000    66.000   250.000   277.000   323.000   320.000
+ 
+017 (accession number)  
+PTC_4_2_30
+Pelagic Tidal Constants 3, Additions;
+PTC_4_2_30                                  
+-59.733 -55.500                     (lat, lon)   
+377    NaN                          (record length (days), sample int. (s))   
+01 : Bottom Pressure Recorder  
+4.257    18.812     5.743    17.228     6.733    40.990    18.119     5.050
+41.000    55.000    73.000    78.000   245.000   274.000   321.000   318.000
+ 
+018 (accession number)  
+PTC_4_2_32
+Pelagic Tidal Constants 3, Additions;
+PTC_4_2_32                                 
+-56.533 -67.000                     (lat, lon) 
+364    NaN                          (record length (days), sample int. (s))    
+01 : Bottom Pressure Recorder
+3.564    16.238     5.644    17.921    10.891    44.653     7.030     1.980
+33.000    52.000    94.000   100.000   208.000   247.000   291.000   281.000
+ 
+019  (accession number) 
+PTC_4_2_33
+Pelagic Tidal Constants 3, Additions;
+PTC_4_2_33                                  
+-62.133 -60.683                     (lat, lon) 
+358    NaN                          (record length (days), sample int. (s))    
+01 : Bottom Pressure Recorder 
+5.149    23.564     7.921    24.554     4.059    31.980    16.337     4.653
+46.000    54.000    71.000    73.000   231.000   280.000   351.000   352.000
+ 
+020 (accession number)  
+PTC_4_2_34 (Sanae Base)
+Pelagic Tidal Constants 3, Additions;
+Sanae Base                     
+-70.133 -2.650                      (lat, lon) 
+653    NaN                          (record length (days), sample int. (s))    
+01 : Bottom Pressure Recorder 
+6.337    27.030     8.416    25.347     5.545    34.653    25.941     7.426
+334.000   343.000   350.000   351.000   154.000   177.000   208.000   200.000
+ 
+021 (accession number) 
+PTC_4_1_02 (Station "Kathy")
+Pelagic Tidal Constants 3
+Kathy               
+-50.033 132.150                      (lat, lon)  
+32     NaN                           (record length (days), sample int. (s))    
+01 : Bottom Pressure Recorder 
+2.772    11.782     4.158    12.772     1.584    12.277     9.010     2.574
+220.000   220.000   235.000   232.000    79.000    65.000   108.000   103.000
+ 
+022 (accession number) 
+PTC_4_1_03  (Station "Flicki")
+Pelagic Tidal Constants 3
+Flicki             
+-60.017 132.117                      (lat, lon) 
+21     NaN                           (record length (days), sample int. (s))   
+01 : Bottom Pressure Recorder   
+3.465    15.347     5.941    17.525     3.762    18.416     9.901     2.970
+187.000   215.000   228.000   223.000    63.000    79.000   120.000   118.000
+ 
+023 (accession number) 
+20080- Mawson
+http://www.geoscience.scar.org/geodesy/perm_ob/tide/atg_instrument.txt
+Mawson                              
+-67.600 62.867                       (lat, lon) 
+365    3600                          (record length (days), sample int. (s))    
+01 : Bottom Pressure Recorder 
+6.021    25.400     7.671    23.446     2.307     3.135    11.356     3.338
+276.884   284.588   291.859   292.197   169.435   238.807     8.865    11.628
+ 
+024 (accession number)  
+20100- Davis
+http://www.geoscience.scar.org/geodesy/perm_ob/tide/atg_instrument.txt
+Davis                              
+-68.450 77.967                       (lat, lon) 
+365    3600                          (record length (days), sample int. (s))  
+01 : Bottom Pressure Recorder   
+7.168    28.838     8.782    27.832     5.737    20.099    17.749     5.055
+260.749   269.018   276.048   276.983   168.230   208.511   307.090   308.821
+ 
+025 (accession number)  
+20120- Casey
+http://www.geoscience.scar.org/geodesy/perm_ob/tide/atg_instrument.txt 
+Casey                              
+-66.283 110.533                      (lat, lon) 
+365    3600                          (record length (days), sample int. (s))    
+01 : Bottom Pressure Recorder 
+6.356    26.515     8.550    26.574     7.255    29.272    16.859     4.666
+224.162   233.658   242.403   243.681   120.523   142.886   200.087   199.439
+ 
+026 (accession number)  
+65300- Macquarie Island
+http://www.geoscience.scar.org/geodesy/perm_ob/tide/atg_instrument.txt
+Macquarie Island                   
+-54.483 158.967                      (lat, lon) 
+365    3600                          (record length (days), sample int. (s))  
+01 : Bottom Pressure Recorder, Foxboro pressure recorder
+1.585     7.726     3.094     9.569     7.407    30.457     8.879     2.408
+192.356   197.451   216.521   216.914     2.644    26.118    57.047    49.244
+ 
+027 (accession number)  
+20090- Heard Island
+[ref]
+Heard Island                       
+-53.017 73.383                       (lat, lon) 
+52     3600                          (record length (days), sample int. (s))  
+00 : [type]  
+1.662     9.142       NaN    18.811     6.550    24.049     7.104       NaN
+167.592   169.026       NaN   191.559   170.200   191.591   252.812       NaN
+ 
+028 (accession number)   
+Base (gravity measurements on the RIS)
+Williams and Robinson (1980; J. Geophys. Res., 85(C11), 6689-6696)   
+Base    
+-82.530 -166.000                     (lat, lon) 
+44    NaN                            (record length (days), sample int. (s)) 
+04 : Gravimeter
+NaN    33.930    13.510    41.750     8.870     7.800     9.840       NaN
+NaN   174.540   186.460   186.450    93.710   213.750   112.330       NaN
+ 
+029 (accession number) 
+c13  (gravity measurements on the RIS)
+Williams and Robinson (1980; J. Geophys. Res., 85(C11), 6689-6696) 
+c13    
+-79.250 170.370                      (lat, lon) 
+34    NaN                            (record length (days), sample int. (s)) 
+04 : Gravimeter    
+NaN    32.900     9.550    28.760     4.980     3.150     3.940       NaN
+NaN   190.740   200.690   200.850   159.610   300.750   130.940       NaN
+ 
+030 (accession number)
+c16  (gravity measurements on the RIS)
+Williams and Robinson (1980; J. Geophys. Res., 85(C11), 6689-6696)  
+c16    
+-81.190 170.500                      (lat, lon)  
+45    NaN                            (record length (days), sample int. (s)) 
+04 : Gravimeter    
+NaN    25.990     9.550    29.820     3.930     3.140     1.950       NaN
+NaN   190.820   200.700   200.720   146.640   311.510   162.570       NaN
+ 
+031 (accession number)  
+c36  (gravity measurements on the RIS)
+Williams and Robinson (1980; J. Geophys. Res., 85(C11), 6689-6696)
+c36    
+-79.750 -169.050                     (lat, lon) 
+34    NaN                            (record length (days), sample int. (s)) 
+04 : Gravimeter    
+NaN    35.920    13.750    41.540     4.410     3.650     6.780       NaN
+NaN   152.930   160.450   160.100    40.930    78.500    26.690       NaN
+ 
+032 (accession number)   
+F9   (gravity measurements on the RIS)
+Williams and Robinson (1980; J. Geophys. Res., 85(C11), 6689-6696)
+F9    
+-84.250 -171.330                     (lat, lon)  
+58    NaN                            (record length (days), sample int. (s)) 
+04 : Gravimeter       
+NaN    39.270    13.670    40.180     7.860     7.950    10.870       NaN
+NaN   190.540   206.670   206.710   137.740   259.270   141.860       NaN
+ 
+033 (accession number)     
+J9   (gravity measurements on the RIS)
+Williams and Robinson (1980; J. Geophys. Res., 85(C11), 6689-6696)
+J9      
+-82.370 -168.630                     (lat, lon)  
+30    NaN                            (record length (days), sample int. (s)) 
+04 : Gravimeter    
+NaN    41.730    14.210    42.090     8.090     7.490     9.190       NaN
+NaN   172.450   189.930   191.050    80.520   203.160   103.810       NaN
+ 
+034 (accession number)  
+LAS
+Williams and Robinson (1980; J. Geophys. Res., 85(C11), 6689-6696) 
+LAS                                       
+-78.200 -162.270                     (lat, lon)   
+32    NaN                            (record length (days), sample int. (s)) 
+04 : Gravimeter
+NaN    23.610    10.470    32.370     4.950     3.030     4.910       NaN
+NaN   141.170   153.940   154.050   344.690    32.540   341.190       NaN
+ 
+035 (accession number)  
+McMurdo
+Williams and Robinson (1980; J. Geophys. Res., 85(C11), 6689-6696)  
+McMurdo                                   
+-77.850 166.660                      (lat, lon)   
+365    NaN                           (record length (days), sample int. (s)) 
+04 : Gravimeter
+NaN    25.060     8.620    24.890     2.960     4.050     2.060       NaN
+NaN   186.690   196.380   196.710   233.680     4.240   267.450       NaN
+ 
+036 (accession number)  
+O19  (gravity measurements on the RIS)
+Williams and Robinson (1980; J. Geophys. Res., 85(C11), 6689-6696) 
+O19    
+-79.530 163.360                      (lat, lon)   
+39    NaN                            (record length (days), sample int. (s))  
+04 : Gravimeter
+NaN    32.940    11.690    35.100     3.390     3.810     2.160       NaN
+NaN   196.430   208.430   208.260   188.930   339.770   182.060       NaN
+ 
+037 (accession number)  
+RI   (gravity measurements on the RIS)
+Williams and Robinson (1980; J. Geophys. Res., 85(C11), 6689-6696) 
+RI    
+-80.190 -161.560                     (lat, lon)   
+36    NaN                            (record length (days), sample int. (s)) 
+04 : Gravimeter 
+NaN    42.660    16.980    49.410    10.060     6.190    11.410       NaN
+NaN   140.070   159.440   159.840     5.510   126.470    27.980       NaN
+
+038 (accession number)  
+Amery 2000 (differential GPS on NE Amery)
+pers. comm. Matt King, University of Newcastle, UK  
+Amery
+-69.714 73.584                       (lat, lon)   
+31     3600                          (record length (days), sample int. (s)) 
+03 : GPS
+7.367    28.311       NaN    30.965     6.171    18.604    17.834       NaN
+250.345   272.305       NaN   296.553   170.798   215.911   332.935       NaN
+ 
+039 (accession number)  
+Beaver Lake
+Australian National Tidal Centre/Australian Antarctic Division   
+Beaver Lake                               
+-70.800 68.183                       (lat, lon)   
+NaN    NaN                           (record length (days), sample int. (s)) 
+01 : Bottom Pressure Recorder
+6.500    28.700     9.400    28.300     7.500    24.100    24.900     6.800
+287.900   287.200   295.800   295.800   214.700   253.400   356.200   356.200
+ 
+040 (accession number)  
+ROPEX C1
+[ref]
+ROPEX C1                                  
+-59.867 -30.100                     (lat, lon) 
+365    900                          (record length (days), sample int. (s)) 
+01 : Bottom Pressure Recorder   
+3.164    12.313     3.208     9.454     5.204    30.749    17.974     5.458
+24.654    33.868    42.230    42.984   256.075   265.449   282.216   280.160
+ 
+041 (accession number)  
+ROPEX C2
+[ref]
+ROPEX C2                                 
+-73.692 -34.610                     (lat, lon) 
+365    900                          (record length (days), sample int. (s)) 
+01 : Bottom Pressure Recorder   
+8.172    34.245    11.271    33.846     8.932    58.776    40.284    12.076
+359.610     6.350    13.840    14.607   229.501   239.751   262.130   261.707
+ 
+042 (accession number)  
+ROPEX M2
+[ref]  
+ROPEX M2                                
+-76.583 -32.010                     (lat, lon) 
+365    900                          (record length (days), sample int. (s)) 
+01 : Bottom Pressure Recorder   
+7.512    32.031    10.520    31.682    11.895    77.237    52.489    15.631
+358.737     5.209    12.065    11.861   237.218   247.705   269.320   269.335
+ 
+043 (accession number)  
+Rutford GL Tilt/Grav
+Doake (1992: Filchner Ronne Ice Shelf Programme Report 6, 34-39), revised by Keith Nicholls (BAS)
+Rutford GL                     
+-78.550 -82.967                     (lat, lon) 
+43  NaN                             (record length (days), sample int. (s))  
+05 : Tiltmeter, 43-day record in grounding zone, calibrated with 4 days gravimeter data further offshore
+ 9.5      39.6      16.0      49.1      23.8      161.1     108.6     32.5
+70.2      61.7      57.4      60.0      60.5       72.1      96.2     93.7
+ 
+044 (accession number)  
+Syowa
+Aoki et al. (2000: Geophys. Res. Lett., 27(15), 2285-2288): corrected by M.A. King
+Syowa                                    
+-69.00 39.8                         (lat, lon) 
+365 NaN                             (record length (days), sample int. (s)) 
+03 : GPS
+5.91     24.42     7.33    22.21     3.96    24.93     20.03      5.86
+301.78  310.51   316.66   317.45    76.54    80.99     97.02     96.32
+
+045 (accession number) 
+Ardley Cove
+Dragani et al. (2004: Polar Geosci., 17, 156-170)
+Ardley Cove                               
+-62.217 -58.933                     (lat, lon)  
+44   NaN                            (record length (days), sample int. (s)) 
+06 : Visual Tide Staff
+NaN 29.0 NaN 31.0 NaN 46.0 25.0 NaN
+NaN 45.0 NaN 73.0 NaN 276.0 331.0 NaN
+
+046 (accession number)  
+Gurrachaga
+Dragani et al. (2004: Polar Geosci., 17, 156-170)
+Gurrachaga                                
+-62.300 -59.200                     (lat, lon)  
+41   NaN                            (record length (days), sample int. (s)) 
+06 : Visual Tide Staff
+NaN 26.0 NaN 25.0 NaN 44.0 23.0 NaN
+NaN 50.0 NaN 65.0 NaN 279.0 335.0 NaN
+
+047 (accession number)  
+Half Moon Is.
+Dragani et al. (2004: Polar Geosci., 17, 156-170)
+Half Moon Is.                             
+-62.600 -59.884                     (lat, lon)  
+38   NaN                            (record length (days), sample int. (s)) 
+02 : Coastal Tide Gauge, Float
+NaN 28.0 NaN 28.0 NaN 43.0 24.0 NaN
+NaN 49.0 NaN 66.0 NaN 281.0 335.0 NaN
+
+048 (accession number)  
+Pendulum Cove
+Dragani et al. (2004: Polar Geosci., 17, 156-170)
+Pendulum Cove                            
+-62.956 -60.608                     (lat, lon)  
+19   NaN                            (record length (days), sample int. (s)) 
+06 : Visual Tide Staff
+NaN 29.0 NaN 26.0 NaN 44.0 28.0 NaN
+NaN 55.0 NaN 73.0 NaN 281.0 NaN NaN
+
+049  (accession number) 
+Whalers Cove 
+Dragani et al. (2004: Polar Geosci., 17, 156-170)
+Whalers Cove                             
+-62.983 -60.567                     (lat, lon)  
+12   NaN                            (record length (days), sample int. (s)) 
+06 : Visual Tide Staff
+NaN 29.0 NaN 26.0 NaN 46.0 29.0 NaN
+NaN 48.0 NaN 66.0 NaN 280.0 NaN NaN
+
+050  (accession number) 
+Bahia Esperanza
+http://www.geoscience.scar.org/geodesy/perm_ob/tide/atg_instrument.txt
+Bahia Esperanza                           
+-63.383 -56.983                     (lat, lon) 
+547   NaN                           (record length (days), sample int. (s)) 
+02 : Coastal Tide Gauge, Float
+NaN 40.0 NaN 36.0 NaN 63.0 40.0 NaN
+NaN 35.0 NaN 53.0 NaN 275.0 312.0 NaN
+
+051 (accession number)
+Mikkelsen
+Dragani et al. (2004: Polar Geosci., 17, 156-170)
+Mikkelsen                                 
+-63.887 -60.733                     (lat, lon)  
+25   NaN                            (record length (days), sample int. (s)) 
+06 : Visual Tide Staff 
+NaN 33.0 NaN 33.0 NaN 38.0 27.0 NaN
+NaN 52.0 NaN 66.0 NaN 290.0 007.0 NaN
+
+052 (accession number)
+Primavera
+Dragani et al. (2004: Polar Geosci., 17, 156-170)
+Primavera                                 
+-64.150 -60.950                     (lat, lon)  
+44   NaN                            (record length (days), sample int. (s)) 
+06 : Visual Tide Staff
+NaN 32.0 NaN 31.0 NaN 33.0 26.0 NaN
+NaN 59.0 NaN 72.0 NaN 291.0 005.0 NaN
+
+053 (accession number) 
+Gerlache C
+Dragani et al. (2004: Polar Geosci., 17, 156-170)
+Gerlache C                                
+-64.593 -62.890                     (lat, lon)  
+29   NaN                            (record length (days), sample int. (s)) 
+01 : Bottom Pressure Recorder
+NaN 30.0 NaN 32.0 NaN 29.0 22.0 NaN
+NaN 60.0 NaN 78.0 NaN 291.0 013.0 NaN
+
+054 (accession number)  
+Palmer
+Booth, Technical Report, 2004
+Palmer                                    
+-64.772 -64.067                     (lat, lon)  
+30   NaN                            (record length (days), sample int. (s)) 
+01 : Bottom Pressure Recorder
+ 6.4    28.2    9.8   31.4   1.9   19.2   16.9   4.5
+56.9    65.9   82.1   83.1 157.7  284.1   29.8  35.4
+
+055 (accession number)  
+Lokcroy
+Dragani et al. (2004: Polar Geosci., 17, 156-170)
+Lokcroy                                  
+-64.827 -63.492                     (lat, lon)  
+19   NaN                            (record length (days), sample int. (s)) 
+02 : Coastal Tide Gauge, Float
+NaN 29.0 NaN 29.0 NaN 23.0 19.0 NaN
+NaN 68.0 NaN 82.0 NaN 293.0 NaN NaN
+
+056 (accession number)  
+Brown
+Dragani et al. (2004: Polar Geosci., 17, 156-170)
+Brown                                     
+-64.900 -62.867                     (lat, lon)  
+699   NaN                           (record length (days), sample int. (s)) 
+02 : Coastal Tide Gauge, Float
+NaN 31.0 NaN 33.0 NaN 27.0 20.0 NaN
+NaN 63.0 NaN 76.0 NaN 291.0 14.0 NaN
+
+057 (accession number)  
+Groussac
+Dragani et al. (2004: Polar Geosci., 17, 156-170)
+Groussac                                  
+-65.183 -64.167                     (lat, lon)  
+59   NaN                            (record length (days), sample int. (s)) 
+06 : Visual Tide Staff
+NaN 29.0 NaN 32.0 NaN 21.0 20.0 NaN
+NaN 68.0 NaN 86.0 NaN 288.0 32.0 NaN
+
+058 (accession number)  
+Seymour Is. (Marambio Base)
+D'Onofrio et al. (2003: Polar Geosci., 16, 53-60)
+Seymour Is               
+-64.235 -56.575                     (lat, lon)  
+32   NaN                            (record length (days), sample int. (s)) 
+06 : Visual Tide Staff
+NaN 42.0 NaN 41.0 NaN 71.0 47.0 NaN
+NaN 26.0 NaN 46.0 NaN 266.0 301.0 NaN
+
+059 (accession number)  
+Larsen Nunatak (Matenzio Base)
+D'Onofrio et al. (2003: Polar Geosci., 16, 53-60)
+Larsen Nunatak            
+-64.904 -60.043                     (lat, lon)  
+44   NaN                            (record length (days), sample int. (s)) 
+02 : Coastal Tide Gauge,  Visual Tide Staff plus BPR
+NaN 40.1 13.7 42.5 12.6 82.5 55.4 16.0
+NaN 008.0 29.1 032.0 249.8 260.8 298.8 295.5
+
+060 (accession number)  
+Eklund Islands
+Potter et al. (1985: Brit. Ant. Surv. Bull., No. 68, 1-18)
+Eklund Islands                             
+-73.1667 -71.6667                     (lat, lon)  
+45   NaN                              (record length (days), sample int. (s)) 
+01 : Bottom Pressure Recorder
+5.8 27.0 10.9 32.7 9.0 13.1 30.0 8.1
+78.0 80.0 94.0 99.0 161.0 271.0 92.0 93.0
+
+061 (accession number)  
+Marguerite Bay
+Potter et al. (1985: Brit. Ant. Surv. Bull., No. 68, 1-18) 
+Marguerite Bay                            
+-69.9667 -68.8500                     (lat, lon)  
+16 NaN                                (record length (days), sample int. (s)) 
+01 : Bottom Pressure Recorder
+5.8 25.9 10.7 31.9 7.0 12.4 22.0 5.7
+79.0 76.0 91.0 93.0 158.0 267.0 78.0 79.0
+
+062 (accession number)  
+Moutonnee Lake (Looks Bad)
+Cartwright (1979: Brit. Ant. Surv. Bull., No. 49, 167-79)
+Moutonnee Lake                
+-70.8667 -68.3833                     (lat, lon) 
+15 NaN                                (record length (days), sample int. (s)) 
+02 : Coastal Tide Gauge, Tide gauge on floating ice, measuring wire to bottom
+3.1 14.8 5.8 17.8 0.3 7.0 15.2 4.4
+59.0 68.0 82.0 84.0 0.0 262.0 45.0 41.0
+
+063 (accession number)  
+Ablation Lake
+Cartwright (1979: Brit. Ant. Surv. Bull., No. 49, 167-79)
+Ablation Lake                              
+-70.8167 -68.4167                     (lat, lon)  
+54 NaN                                (record length (days), sample int. (s)) 
+02 : Coastal Tide Gauge, Tide gauge on floating ice, measuring wire to bottom
+5.8 25.8 10.5 30.3 8.2 15.2 23.9 6.7
+82.0 73.0 82.0 88.0 154.0 269.0 77.0 78.0
+
+064 (accession number)  
+Hobbs Pool
+Cartwright (1979: Brit. Ant. Surv. Bull., No. 49, 167-79)
+Hobbs Pool                                
+-71.3000 -67.5833                     (lat, lon) 
+15 NaN                                (record length (days), sample int. (s)) 
+02 : Coastal Tide Gauge, Tide gauge on floating ice, measuring wire to bottom
+6.0 26.7 10.9 31.4 8.6 15.9 24.9 7.0
+91.0 81.0 91.0 96.0 160.0 275.0 83.0 84.0
+
+065 (accession number) 
+AnSlope (NW Ross Sea Shelf Break)
+L. Padman (padman@esr.org); pers. comm.
+AnSlope           
+-72.1200 173.5780                     (lat, lon) 
+325 NaN                               (record length (days), sample int. (s)) 
+01 : Bottom Pressure Recorder
+8.5 39.5 11.7 35.0 3.6 8.8 6.1 1.9
+170.5 184.5 208.9 212.8 321.1 31.2 10.1 9.6
+
+066 (accession number) 
+Halley
+M. King (m.a.king@newcastle.ac.uk); pers. comm.
+Halley                                      
+-75.5793 333.4752                     (lat, lon) 
+365 NaN                               (record length (days), sample int. (s)) 
+03 : GPS
+6.9    31.1    10.3    29.8    10.2    70.1    48.4    15.2
+354.2     2.8     9.3     9.4   216.9   232.7   254.6   251.4
+
+067 (accession number) 
+Amery Ice Shelf TS01
+M. King (m.a.king@newcastle.ac.uk); pers. comm.
+TS01                         
+-69.5626 71.9689                     (lat, lon) 
+48 NaN                               (record length (days), sample int. (s)) 
+03 : GPS
+7.5    29.3     9.9    29.5     7.9    22.0    22.1     6.4
+268.0   272.8   279.3   282.8   186.7   216.5   320.7   322.0
+
+068 (accession number) 
+Amery Ice Shelf TS03
+M. King (m.a.king@newcastle.ac.uk); pers. comm.
+TS03                         
+-69.1830 70.3916                     (lat, lon) 
+57 NaN                               (record length (days), sample int. (s)) 
+03 : GPS
+7.8    30.0     9.9    29.4     7.5    21.8    21.6     6.2
+268.6   274.3   281.6   285.1   193.2   223.1   327.4   328.7
+
+069 (accession number) 
+Amery Ice Shelf TS04
+M. King (m.a.king@newcastle.ac.uk); pers. comm.
+TS04                         
+-70.2235 71.5806                     (lat, lon) 
+65 NaN                               (record length (days), sample int. (s)) 
+03 : GPS
+8.1    31.4    10.3    30.7     8.4    24.5    25.4     7.3
+266.5   272.0   278.9   282.4   182.1   216.8   318.8   320.1
+
+070 (accession number) 
+Amery Ice Shelf TS05 (partially grounded)
+M. King (m.a.king@newcastle.ac.uk); pers. comm.
+TS05     
+-73.2534 67.0705                     (lat, lon) 
+67 NaN                               (record length (days), sample int. (s)) 
+03 : GPS
+3.1     8.5     2.3     6.9     2.6     6.4     6.5     1.9
+279.0   286.6   273.8   277.1   197.8   236.6   332.5   333.8
+
+071 (accession number) 
+Ross Ice Shelf AFLT
+M. King (m.a.king@newcastle.ac.uk); pers. comm.; data courtesy S. Anandakrishnan
+AFLT                          
+-83.9612 192.3121                     (lat, lon) 
+68 NaN                                (record length (days), sample int. (s)) 
+03 : GPS
+8.1    35.2    14.7    41.0    10.4    10.8     8.9     4.1
+160.5   182.4   199.8   198.0   124.0   227.0   173.8   236.2
+
+072 (accession number) 
+Ross Ice Shelf BFLT
+M. King (m.a.king@newcastle.ac.uk); pers. comm.; data courtesy S. Anandakrishnan
+BFLT                          
+-82.5317 194.0435                    (lat, lon) 
+74 NaN                               (record length (days), sample int. (s)) 
+03 : GPS
+7.9    36.0    14.7    41.6    10.1    10.5    10.9     6.2
+150.1   171.2   184.1   184.2    81.1   183.7   128.6   159.5
+
+073 (accession number) 
+Ross Ice Shelf DFLT
+M. King (m.a.king@newcastle.ac.uk); pers. comm.; data courtesy S. Anandakrishnan
+DFLT                          
+-80.4981 208.9742                     (lat, lon) 
+74 NaN                                (record length (days), sample int. (s)) 
+03 : GPS
+8.0    37.5    14.6    44.0    12.4    12.6    13.9    10.2
+122.1   138.1   147.1   151.1   343.4    90.2    50.2    86.1
+
+074 (accession number) 
+Siple W5C
+M. King (m.a.king@newcastle.ac.uk); pers. comm.; data courtesy S. Anandakrishnan
+Siple W5C                                    
+-83.0101 194.2925                     (lat, lon) 
+43 NaN                                (record length (days), sample int. (s)) 
+03 : GPS
+8.3    35.8    15.1    42.3    11.6    10.7    10.3     6.0
+171.9   174.1   190.0   190.0   102.2   203.8   138.7   169.7
+
+075 (accession number) 
+North Ronne
+pers. comm. Matt King, University of Newcastle, UK; t_tide with Rayleigh 0.8
+North Ronne                                 
+-75.9253 300.6933                     (lat, lon) 
+25 NaN                                (record length (days), sample int. (s)) 
+03 : GPS
+ 8.05   38.46   12.76   37.52   4.83   27.38   14.30   4.09
+23.97   46.90   59.79   57.66  76.52  124.35  157.49 157.45
+
+076 (accession number) 
+Rutford GPS
+pers. comm. Matt King, University of Newcastle, UK; P1, K2 inferred
+Rutford GPS                                 
+-78.647236952 277.332891996              (lat, lon) 
+56 300                                   (record length (days), sample int. (s)) 
+03 : GPS
+9.5    43.1     16.6    49.0    24.8   156.3   101.6     29.1
+29.2   53.5     64.2    62.3    34.2    69.7   100.4     99.5
+
+077 (accession number) 
+Cape Roberts Tide Gauge
+Goring and Pyne (2003: NZ J. Mar. Freshw. Res., 27, 241-249)
+Cape Roberts                       
+-77.0320   163.1630                     (lat, lon) 
+365 3600                                (record length (days), sample int. (s)) 
+01 : Bottom Pressure Recorder,  Vented pressure transducer
+4.6    20.9     6.8    20.6     3.7     5.5     4.8     1.8
+190.7   203.2   214.8   217.1   258.9     6.5   312.5   315.9
+
+078 (accession number) 
+Scott Base Tide Gauge
+Goring and Pyne (2003: NZ J. Mar. Freshw. Res., 27, 241-249)
+Scott Base                         
+-77.8500  166.7640                     (lat, lon) 
+365 3600                               (record length (days), sample int. (s)) 
+02 : Coastal Tide Gauge, Nitrogen bubbler
+5.0    22.5     8.0    24.5     2.7     3.9     3.3     1.4
+184.5  192.6   204.2   206.6   248.9   358.5   291.9   299.4
+
+079 (accession number)
+Terra Nova Bay Tide Gauge
+Goring and Pyne (2003: NZ J. Mar. Freshw. Res., 27, 241-249)
+Terra Nova Bay                     
+-74.7500 164.0000                     (lat, lon) 
+119  3600                             (record length (days), sample int. (s)) 
+01 : Bottom Pressure Recorder, Unvented pressure transducer
+4.1    18.3     6.0    16.8     4.4     6.9     5.9     2.5
+146.0   169.6   204.8   204.2   228.8   336.3   304.7   329.1
+
+080 (accession number) 
+Foundation Ice Stream
+Lambrecht et al. (1997: Polarforschung, 65(1), 15-25).
+Foundation Ice Stream                          
+-83.167 -59.5752                      (lat, lon)  
+30  NaN                               (record length (days), sample int. (s)) 
+04 : Gravimeter
+7.65  34.88  12.40  37.42  15.95  105.62  68.27  20.41
+29.09  30.08  38.13  41.07  357.30  10.26  34.77  32.19
+ 
+081 (accession number) 
+Doake Ice Rumples
+Smith (1991: J. Glaciol., 37 (125), 51-58), revised by Keith Nicholls (BAS)
+Doake Ice Rumples                              
+-79.7333 -67.35                       (lat, lon)   
+43  NaN                               (record length (days), sample int. (s)) 
+05 : Tiltmeter, with elastic beam modeling
+8.8   32.1   11.8   36.5   24.2   130.4   82.6   25.1
+77.1   70.2   56.1   58.0   67.6   73.8   74.9   71.0
+
+082 (accession number) 
+Ellsworth
+Thiel et al. (1960: J. Geophys. Res., 65 (2), 629-636), phases corrected to Greenwich by Doake (1992)
+Ellsworth                                      
+-77.71  -41.1333                     (lat, lon)   
+34 NaN                               (record length (days), sample int. (s)) 
+04 : Gravimeter
+NaN   26.15  NaN   NaN   NaN   51.14  27.50  NaN
+NaN   21.87  NaN   NaN   NaN   284.31  314.55  NaN
+
+083 (accession number) 
+Durmont D'Urville
+pers. comm. Laurie Padman, ESR
+Durmont D'Urville                               
+-66.6617  140.01                     (lat, lon)  
+1961  3600                           (record length (days), sample int. (s)) 
+01 : Bottom Pressure Recorder
+  7.02    30.64     9.83    30.04    7.06   26.63    14.77     4.36
+196.46   208.29   224.88   227.02   45.17   63.29   112.15   111.50
+
+084 (accession number) 
+Marguerite Bay A3
+SO GLOBEC (2001/2002): pers. comm. C. Moffat and R. Beardsley, WHOI
+Marguerite Bay A3                                
+-66.7500  -70.9998                     (lat, lon) 
+319  3600                              (record length (days), sample int. (s)) 
+01 : Bottom Pressure Recorder
+ 5.17   24.67    9.36   29.27    4.55   12.36   14.30    3.96
+61.78   70.00   84.95   87.91  165.19  262.23   64.05   68.06
+
+085 (accession number) 
+FRIS GPS FR02 (inf. from CATS2008a)
+BAS Weddell Sea AFI GPS Campaign: pers. comm. M.A. King, U. Newcastle, U.K.
+FR02               
+-80.9928  -46.2884                     (lat, lon) 
+117 300                                (record length (days), sample int. (s)) 
+03 : GPS
+    7.6860   37.2373   13.4693   39.6126   10.3562   76.5387   47.3013   14.2900
+   22.4859   31.0810   39.0312   39.1734  340.4340  354.3616   14.9091   14.0339
+
+086 (accession number) 
+FRIS GPS FR03 (inf. from CATS2008a)
+BAS Weddell Sea AFI GPS Campaign: pers. comm. M.A. King, U. Newcastle, U.K.
+FR03              
+-82.2088  -58.5467                     (lat, lon)   
+68 300                                 (record length (days), sample int. (s)) 
+03 : GPS
+    8.2789   41.8145   15.4147   45.6308   13.8715  111.2414   69.2767   20.1819
+   31.1912   35.4451   42.2630   42.0243    4.7600   10.5436   34.8100   34.6901
+
+087 (accession number) 
+FRIS GPS FR04 (inf. from FR05)
+BAS Weddell Sea AFI GPS Campaign: pers. comm. M.A. King, U. Newcastle, U.K.
+FR04                           
+-80.1838  -72.8825             (lat, lon)   
+39 300                                 (record length (days), sample int. (s)) 
+03 : GPS
+   10.0351   44.7974   16.3523   47.1255   23.1490  151.5406   99.7565   28.7427
+   30.8930   53.3801   62.2467   60.6667   28.6486   60.1868   82.7316   78.3616
+
+088 (accession number) 
+FRIS GPS FR05
+BAS Weddell Sea AFI GPS Campaign: pers. comm. M.A. King, U. Newcastle, U.K.
+FR05                                    
+-78.2610  -70.9029                     (lat, lon)  
+370  300                               (record length (days), sample int. (s)) 
+03 : GPS
+    9.2027   40.1436   14.3247   42.4159   17.5219  119.1406   74.9006   22.3105
+   49.9958   58.3485   69.8743   67.5621   56.0667   73.1895  100.6578  100.1475
+
+089 (accession number) 
+FRIS GPS FR06 (inf. from CATS2008a)
+BAS Weddell Sea AFI GPS Campaign: pers. comm. M.A. King, U. Newcastle, U.K.
+FR06             
+-76.6849  -66.5136                     (lat, lon)   
+55  300                                (record length (days), sample int. (s)) 
+03 : GPS
+    7.7133   38.7850   13.4972   38.8975   11.8323   89.5706   55.4210   15.9684
+   43.6684   64.0609   77.0995   75.5195   65.6878   94.3362  121.8646  117.4946
+
+090 (accession number) 
+FRIS GPS FR07
+BAS Weddell Sea AFI GPS Campaign: pers. comm. M.A. King, U. Newcastle, U.K.
+FR07                                    
+-75.8785  -59.1495                     (lat, lon)  
+214  300                               (record length (days), sample int. (s)) 
+03 : GPS
+    8.6169   37.3578   12.2384   37.7263    3.7256   25.4999   15.9647    5.2464
+   37.1941   47.6155   58.2707   58.9702  102.6070  129.2666  172.6181  168.9560
+
+091 (accession number) 
+FRIS GPS FR08  (inf. from CATS2008a)
+BAS Weddell Sea AFI GPS Campaign: pers. comm. M.A. King, U. Newcastle, U.K.
+FR08            
+-77.6797  -61.9000                     (lat, lon)    
+18  300                                (record length (days), sample int. (s)) 
+03 : GPS
+       NaN   30.4221   11.5276   33.6154       NaN   60.7274   43.0527   11.8933
+       NaN   50.4090   64.1496   62.5923       NaN   65.9963   92.5883   91.4960
+
+092 (accession number) 
+FRIS GPS FR09
+BAS Weddell Sea AFI GPS Campaign: pers. comm. M.A. King, U. Newcastle, U.K.
+FR09                                   
+-79.1550   -53.2001                     (lat, lon)  
+307  300                                (record length (days), sample int. (s)) 
+03 : GPS
+    7.5495   33.2082   11.7575   35.3098   10.4052   68.3258   39.9492   11.6704
+   31.3732   39.1224   52.2567   46.5842    4.9666   19.6410   44.3125   42.8298
+
+093 (accession number) 
+FRIS GPS FR10 (inf. mean of FR07 and FR09)
+BAS Weddell Sea AFI GPS Campaign: pers. comm. M.A. King, U. Newcastle, U.K.
+FR10        
+-77.1889  -52.2055                     (lat, lon)   
+78  300                                (record length (days), sample int. (s)) 
+03 : GPS
+    6.3004   30.0957    8.8959   31.7366    3.4776   23.1891   15.7670    4.7292
+   16.0828   32.9839   43.6125   41.8375  309.0862  325.5991  332.0453  329.5253
+
+094 (accession number) 
+Larsen C GPS LAR1 (inference from LAR2)
+BAS Weddell Sea AFI GPS Campaign: pers. comm. M.A. King, U. Newcastle, U.K.
+LAR1         
+-67.0133  -61.5124                     (lat, lon)   
+50   300                               (record length (days), sample int. (s)) 
+03 : GPS
+    7.3583   31.8026   11.7562   35.8445   14.2762   89.4900   62.6489   18.4303
+  342.6933    3.9052   15.3259   17.1359  220.9485  250.8367  281.1912  282.9612
+
+095 (accession number) 
+Larsen C GPS LAR2
+BAS Weddell Sea AFI GPS Campaign: pers. comm. M.A. King, U. Newcastle, U.K.
+LAR2                                
+-68.0004  -64.2942                     (lat, lon)  
+433  300                               (record length (days), sample int. (s)) 
+03 : GPS
+    6.1633   29.8510   11.6911   36.1105   13.6841   96.5926   64.8416   19.2459
+  344.4097  352.7434    5.5365    6.1929  228.2643  245.4371  274.7190  275.2227
+
+096 (accession number) 
+Larsen C GPS LAR3 (inference from LAR2)
+BAS Weddell Sea AFI GPS Campaign: pers. comm. M.A. King, U. Newcastle, U.K.
+LAR3          
+-68.5008  -62.0018                     (lat, lon)  
+64   300                               (record length (days), sample int. (s)) 
+03 : GPS
+    6.3466   27.6714   10.3424   31.9472   13.8062   88.2653   63.2609   18.7812
+  342.4600    0.2080    9.1774    9.8274  217.7110  242.1406  269.7193  270.2193
+
+097 (accession number) 
+Larsen C GPS SLGN1 (inference from LAR2)
+pers. comm. B. Kulessa (U. Swansea) via M.A. King, U. Newcastle, U.K.
+SLGN1         
+-67.9515  -62.6691                     (lat, lon)   
+38  300                                (record length (days), sample int. (s)) 
+03 : GPS
+    6.9273   27.9638   10.9606   33.4189   14.7014   87.4284   65.6739   19.3201
+  339.4422  354.2838    6.0202    7.8302  219.5586  244.2963  268.8394  270.6094
+
+098 (accession number) 
+Larsen C GPS SLGS1 (inference from LAR2)
+pers. comm. B. Kulessa (U. Swansea) via M.A. King, U. Newcastle, U.K.
+SLGS1          
+-67.9984  -62.6878                     (lat, lon)  
+36  300                                (record length (days), sample int. (s)) 
+03 : GPS
+    6.9708   28.1355   10.1993   31.0975   14.8187   89.1015   73.9857   21.7653
+  334.7236  354.0097    7.1154    8.9254  216.3933  244.0430  269.3209  271.0909
+
+099 (accession number)
+Larsen C Mobil Oil Inlet (inf. from LAR2)
+pers. comm. A, Shepherd (Leeds) via M.A. King, U. Newcastle, U.K.
+Mobil Oil Inlet         
+-68.5517  -65.1549                      (lat, lon) 
+41  300                                 (record length (days), sample int. (s)) 
+03 : GPS
+    4.9310   31.6847   12.7861   39.4959   11.5806  103.3580   69.1594   20.5324
+  339.5577  351.6117    2.6705    3.3205  229.4878  244.6917  277.5664  278.0664
+
+100 (accession number) 
+Tide_Dotson.mat
+Pers. comm., S. Jacobs and B. Huber (LDEO)
+Dotson                               
+-74.0582  -112.4178                     (lat, lon)  
+373  720                                (record length (days), sample int. (s)) 
+07 : Moored Pressure Recorder, ~4 m above seabed on taut mooring
+  6.16     28.50     10.89     34.40      8.02      4.96     14.48      4.32
+ 89.14     99.37    113.82    116.49    209.07    249.88    163.33    167.70
+ 
+101 (accession number) 
+Tide_GetzCtrl.mat
+Pers. comm., S. Jacobs and B. Huber (LDEO)
+GetzCtrl                              
+-73.8168  -116.9985                     (lat, lon)  
+364  720                                (record length (days), sample int. (s)) 
+07 : Moored Pressure Recorder, ~4 m above seabed on taut mooring
+  6.22     28.78     11.03     34.37      7.01      4.31     11.65      3.48
+ 92.52    102.70    117.92    120.12    218.20    248.57    175.57    178.64
+ 
+102 (accession number) 
+Tide_GetzEast.mat 
+Pers. comm., S. Jacobs and B. Huber (LDEO)
+GetzEast                             
+-73.8465  -115.57                       (lat, lon)  
+372  720                                (record length (days), sample int. (s)) 
+07 : Moored Pressure Recorder, ~4 m above seabed on taut mooring
+  6.20     28.81     10.98     34.47      7.16      4.25     12.32      3.71
+ 90.20    100.62    115.93    117.82    212.45    246.34    169.04    173.06
+ 
+103 (accession number) 
+Tide_PineIsland.mat
+Pers. comm., S. Jacobs and B. Huber (LDEO)
+PineIsland                            
+-74.6085  -103.8727                     (lat, lon)  
+354  720                                (record length (days), sample int. (s)) 
+07 : Moored Pressure Recorder, ~4 m above seabed on taut mooring
+  6.29     29.24     11.30     35.64      9.07      5.67     17.23      5.12
+ 85.57     95.79    110.07    112.93    199.75    243.18    152.23    155.95
+
+104 (accession number) 
+Pine Island GPS
+Pers. comm., R. Bindschadler and M.A. King
+Pine Island GPS                                
+-75.2811   -101.13                     (lat, lon)    
+52   300                               (record length (days), sample int. (s)) 
+03 : GPS, on Pine Island Ice Shelf, 2007/08
+  6.03     28.19     11.54     36.39      6.87      5.49     17.99      5.35
+ 88.8      90.8     110.9     113.7     210.0     254.7     155.6      159.4 
+
+105 (accession number) 
+Evans Ice Stream GPS: EE2B
+Pers. comm., H. Gudmundsson and M.A. King
+EE2B                     
+-76.3092  -77.5841                     (lat, lon)    
+94   300                               (record length (days), sample int. (s)) 
+03 : GPS, on Evans Ice Stream, 2009/2010: inference from AFI FR05
+    9.2890   39.9796   14.5871   43.2113   13.9127  121.2226   78.4988   23.3819
+   46.5463   62.2293   70.9878   73.2978   55.1501   86.5419  117.4459  117.9559   
+   
+106 (accession number) 
+Evans Ice Stream GPS: EE4A (in G. Zone)
+Pers. comm., H. Gudmundsson and M.A. King
+EE4A        
+-76.5566  -76.1974                     (lat, lon)   
+83    300                              (record length (days), sample int. (s)) 
+03 : GPS. on Evans Ice Stream, 2009/2010: inference from AFI FR05
+    3.1632   14.3368    5.0064   14.8303    4.8416   41.3873   27.1000    8.0721
+   41.7245   63.7213   67.9342   70.2442   61.3392   91.5824  121.5186  122.0286
+
+107 (accession number) 
+Evans Ice Stream GPS: EE4B
+Pers. comm., H. Gudmundsson and M.A. King
+EE4B                     
+-76.6963  -76.6862                     (lat, lon)   
+84    300                              (record length (days), sample int. (s)) 
+03 : GPS. on Evans Ice Stream, 2009/2010: inference from AFI FR05
+    8.6020   39.7655   14.5547   43.1154   14.9527  122.8144   79.4900   23.6772
+   42.4305   61.1393   67.5706   69.8806   58.9445   84.4596  114.5031  115.0131
+
+108 (accession number) 
+Evans Ice Stream GPS: EE55
+Pers. comm., H. Gudmundsson and M.A. King
+EE55                     
+-76.7589  -75.4167                     (lat, lon)  
+154    300                             (record length (days), sample int. (s)) 
+03 : GPS. on Evans Ice Stream, 2009/2010: inference from AFI FR05
+    8.8407   41.4984   14.7055   43.5621   17.1807  122.3691   76.5771   22.8096
+   57.7862   62.0988   69.8153   72.1253   66.6983   85.3173  115.1966  115.7066
+
