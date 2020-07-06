@@ -20,13 +20,15 @@ Data have been collected using a wide variety of measurement techniques. These i
 The highest-quality data come from CTG, BPR and modern GPS records. The major tidal constituents are best separated if more than 1/2-year of data are available. Many Antarctic records are less than 29 days long, so that they are difficult to analyze for a sufficient number of major tides to develop reliable predictive models for that site. Nevertheless, because so few tide records exist in the region, these shorter records (and, of course, the intermediate-length records between 29 days and 1/2 year long) may be valuable to some users.
 
 Information on each site can be viewed by downloading the database in either of the following :
-<ul>
-  <li> <b><a href="ftp://ftp.esr.org/pub/datasets/atg/ATG_KML_package_2017_0816.zip">KML package</b></a> for Google Earth  </li>
-  <li> <b><a href="ftp://ftp.esr.org/pub/datasets/atg/atg_database_2017_0816.zip">ASCII text & Matlab *.mat files</a> </b></li>
-</ul>
-Download our <a href="ftp://ftp.esr.org/pub/datasets/atg/ATG_KML_package_2017_0816.zip">ATG_KML </a>package
 
-In this repository, we provide the tools we used to create files in various data formats, and code we used from mapping data.
+<ul>
+<li>KML package: (ftp://ftp.esr.org/pub/datasets/atg/ATG_KML_package_2017_0816.zip) for Google Earth </li>
+<li>ASCII text & Matlab *.mat files: (ftp://ftp.esr.org/pub/datasets/atg/atg_database_2017_0816.zip) </li>
+</ul>
+
+
+
+In this repository, we provide the tools we used to create files in various data formats, and code we used for mapping data.
 
 
 Contact Laurie Padman (ESR; padman@esr.org) for more information, or to submit new datasets to the database.
