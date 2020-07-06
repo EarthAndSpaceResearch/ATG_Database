@@ -24,6 +24,7 @@ Information on each site can be viewed by downloading the database in either of 
   <li> <b><a href="ftp://ftp.esr.org/pub/datasets/atg/ATG_KML_package_2017_0816.zip">KML package</b></a> for Google Earth  </li>
   <li> <b><a href="ftp://ftp.esr.org/pub/datasets/atg/atg_database_2017_0816.zip">ASCII text & Matlab *.mat files</a> </b></li>
 </ul>
+Download our <a href="ftp://ftp.esr.org/pub/datasets/atg/ATG_KML_package_2017_0816.zip">ATG_KML </a>package
 
 In this repository, we provide the tools we used to create files in various data formats, and code we used from mapping data.
 
